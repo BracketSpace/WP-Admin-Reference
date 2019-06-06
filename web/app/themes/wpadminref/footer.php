@@ -1,4 +1,3 @@
-<?php wp_footer(); ?>
 			</div>
 	        <!-- wpbody -->
 	    </div>
