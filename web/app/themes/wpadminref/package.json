@@ -1,0 +1,23 @@
+{
+  "name": "wpadminref",
+  "version": "1.0.0",
+  "description": "WP Admin Reference",
+  "main": "index.js",
+  "dependencies": {
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://gitlab.com/bracketspace/wp-admin-reference.git"
+  },
+  "author": "bracketspace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bracketspace/wp-admin-reference/issues"
+  },
+  "homepage": "https://gitlab.com/bracketspace/wp-admin-reference#readme"
+}
