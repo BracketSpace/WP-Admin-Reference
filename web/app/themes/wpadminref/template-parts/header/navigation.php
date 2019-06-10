@@ -16,7 +16,7 @@
                 </a>
             </li>
             <li class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" id="menu-posts">
-                <a href="#metabox" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true">
+                <a href="#metaboxes" class="wp-has-submenu wp-not-current-submenu menu-top menu-icon-post open-if-no-js menu-top-first" aria-haspopup="true">
                     <div class="wp-menu-arrow">
                         <div></div>
                     </div>
