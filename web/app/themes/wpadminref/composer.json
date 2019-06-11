@@ -1,6 +1,13 @@
 {
-    "name": "wpadminref/wpadminref",
-    "require-dev": {
-        "squizlabs/php_codesniffer": "^3.4"
-    }
+	"name": "bracketspace/wpadminreference",
+	"type": "wordpress-theme",
+	"scripts": {
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+		"phpcompatibility/php-compatibility": "^9.1",
+		"wp-coding-standards/wpcs": "^2.0"
+	}
 }
