@@ -1,3 +1,13 @@
+<?php
+/**
+ * Theme footer
+ *
+ * @package Wpadminref
+ */
+
+wp_footer();
+
+?>
 			</div>
 	        <!-- wpbody -->
 	    </div>
