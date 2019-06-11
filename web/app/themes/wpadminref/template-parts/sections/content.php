@@ -1,3 +1,11 @@
+<?php
+/**
+ * sections default view
+ *
+ * @package wpadminref
+ */
+?>
+
 <section class="section section-about" id="about">
 	<h1>About</h1>
 	<div class="section-content">

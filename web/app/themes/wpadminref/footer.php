@@ -2,17 +2,17 @@
 /**
  * Theme footer
  *
- * @package Wpadminref
+ * @package wpadminref
  */
 
 wp_footer();
 
 ?>
 			</div>
-	        <!-- wpbody -->
-	    </div>
-	    <!-- wpcontent -->
-	    <div class="clear"></div>
+			<!-- wpbody -->
+		</div>
+		<!-- wpcontent -->
+		<div class="clear"></div>
 	</div>
 </body>
 </html>
