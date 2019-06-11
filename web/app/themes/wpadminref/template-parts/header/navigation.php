@@ -1,9 +1,10 @@
 <?php
 /**
- * page navigation
+ * Navigation
  *
  * @package wpadminref
  */
+
 ?>
 
 <div id="adminmenumain" role="navigation">

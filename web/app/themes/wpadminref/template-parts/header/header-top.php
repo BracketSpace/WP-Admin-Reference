@@ -1,9 +1,10 @@
 <?php
 /**
- * header top bar
+ * Header top bar
  *
  * @package wpadminref
  */
+
 ?>
 
 <div id="wpadminbar" class="">
@@ -12,7 +13,7 @@
 			<li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="#" aria-expanded="false"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li>
 			<li id="wp-admin-bar-wp-logo" class="menupop">
 				<a class="ab-item" aria-haspopup="true" href="https://bracketspace.com/" target="_blank">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bracketspace-logo.svg" class="wp-admin-icon" alt="WP-Admin reference">
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bracketspace-logo.svg" class="wp-admin-icon" alt="WP-Admin reference">
 					<span class="screen-reader-text">BracketSpace</span>
 				</a>
 				<div class="ab-sub-wrapper">

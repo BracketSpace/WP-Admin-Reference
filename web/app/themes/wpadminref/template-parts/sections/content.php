@@ -1,9 +1,10 @@
 <?php
 /**
- * sections default view
+ * Sections default view
  *
  * @package wpadminref
  */
+
 ?>
 
 <section class="section section-about" id="about">
