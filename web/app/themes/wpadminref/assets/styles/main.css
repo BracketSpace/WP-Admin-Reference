@@ -1,9 +1,9 @@
-#wpadminbar a img.wp-admin-icon {
+#wpadminbar img.wp-admin-icon {
     height: 20px;
     width: 20px;
     margin: 6px 0;
 }
-#wpadminbar .menupop:hover .ab-sub-wrapper{
+.admin-bar .menupop:hover .ab-sub-wrapper {
     display: block;
 }
 .section {
