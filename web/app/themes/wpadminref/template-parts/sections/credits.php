@@ -7,7 +7,7 @@
 
 ?>
 
-<section class="section section-about" id="about">
+<section class="section section-about" id="credits">
 	<h1>Credits</h1>
 	<div class="section-content">
 		<p>
