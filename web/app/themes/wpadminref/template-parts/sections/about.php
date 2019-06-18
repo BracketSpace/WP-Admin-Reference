@@ -8,7 +8,7 @@
 ?>
 
 <section class="section section-about" id="about">
-	<h1>About</h1>
+	<h1>WP-Admin reference</h1>
 	<div class="section-content">
 		<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at porta ipsum. Etiam ultrices rhoncus egestas. Quisque tempus ornare felis, in finibus lorem efficitur ut. Nullam consequat nisi eget fringilla ullamcorper. Nulla facilisi. Sed ornare faucibus ante, ac venenatis arcu condimentum sit amet. Nunc id ante orci.

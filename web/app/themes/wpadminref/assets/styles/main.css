@@ -3,9 +3,24 @@
     width: 20px;
     margin: 6px 0;
 }
+#adminmenuwrap {
+	position: fixed;
+}
 .admin-bar .menupop:hover .ab-sub-wrapper {
     display: block;
 }
 .section {
     min-height: calc( 100vh - 42px );
+}
+.section-content::after {
+	display: table;
+	content: '';
+	clear: both;
+}
+@media( max-width: 782px ){
+	#wpadminbar img.wp-admin-icon {
+	    height: 34px;
+	    width: 25px;
+	    margin: 6px 10px;
+	}
 }

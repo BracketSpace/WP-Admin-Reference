@@ -1,12 +1,13 @@
 <?php
 /**
- * Section credits view
+ * Section about view
  *
  * @package wpadminref
  */
 
 ?>
-<section class="section section-credits" id="credits">
+
+<section class="section section-about" id="about">
 	<h1>Credits</h1>
 	<div class="section-content">
 		<p>

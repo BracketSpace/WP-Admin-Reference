@@ -29,9 +29,27 @@ add_action( 'wp_enqueue_scripts', function () {
 add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_script( 'jquery-core' );
 	wp_enqueue_script( 'jquery-migrate' );
+	wp_enqueue_script( 'jquery-ui-core' );
+	wp_enqueue_script( 'jquery-ui-mouse' );
+	wp_enqueue_script( 'jquery-ui-sortable' );
+	wp_enqueue_script( 'jquery-ui-resizable' );
+	wp_enqueue_script( 'jquery-ui-draggable' );
+	wp_enqueue_script( 'jquery-ui-button' );
+	wp_enqueue_script( 'jquery-ui-position' );
+	wp_enqueue_script( 'jquery-ui-dialog' );
+	wp_enqueue_script( 'jquery-ui-menu' );
+	wp_enqueue_script( 'jquery-ui-autocomplete' );
+	wp_enqueue_script( 'hoverIntent' );
+	wp_enqueue_script( 'common' );
+	wp_enqueue_script( 'wp-lists' );
+	wp_enqueue_script( 'postbox' );
+	wp_enqueue_script( 'admin-bar' );
 	wp_enqueue_script( 'utils' );
-	wp_enqueue_script( 'waypoints', get_theme_file_path( '/assets/scripts/waypoints.js' ), array(), filemtime( get_theme_file_path( '/assets/scripts/waypoints.js' ) ), true );
-	wp_enqueue_script( 'wpadminref-script', get_theme_file_path( '/assets/scripts/main.js' ), array(), filemtime( get_theme_file_path( '/assets/scripts/main.js' ) ), true );
+	wp_enqueue_script( 'dashboard' );
+	wp_enqueue_script( 'thickbox' );
+	wp_enqueue_script( 'shortc' );
+	wp_enqueue_script( 'waypoints', get_theme_file_uri( '/node_modules/waypoints/src/waypoint.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/waypoints/src/waypoint.js' ) ), true );
+	wp_enqueue_script( 'wpadminref-script', get_theme_file_uri( '/assets/scripts/main.js' ), array(), filemtime( get_theme_file_uri( '/assets/scripts/main.js' ) ), true );
 } );
 
 add_filter( 'wpadminref/sections', function( $sections ) {
@@ -62,11 +80,11 @@ add_filter( 'wpadminref/sections', function( $sections ) {
 	];
 
 	$sections['dashicons'] = [
-		'icon'  => 'screenoptions',
+		'icon'  => 'smiley',
 		'title' => __( 'Dashicons', 'wpadminref' ),
 	];
 
-	$sections['dashicons'] = [
+	$sections['credtis'] = [
 		'icon'  => 'nametag',
 		'title' => __( 'Credits', 'wpadminref' ),
 	];
