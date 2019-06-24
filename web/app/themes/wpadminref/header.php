@@ -10,6 +10,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript">var ajaxurl = <?php echo wp_json_encode( admin_url( 'admin-ajax.php', 'relative' ) ); ?></script>
 	<?php wp_head(); ?>
 </head>
 <body class="wp-admin wp-core-ui js index-php auto-fold admin-bar customize-support svg">
