@@ -5,8 +5,7 @@
  * @package wpadminref
  */
 
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html class="wp-toolbar" <?php language_attributes(); ?>  >
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
