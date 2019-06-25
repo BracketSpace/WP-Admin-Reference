@@ -12,9 +12,6 @@
 		<!-- wpcontent -->
 		<div class="clear"></div>
 	</div>
-<?php
-wp_footer();
-do_action( 'admin_print_footer_scripts' );
-?>
+<?php wp_footer(); ?>
 </body>
 </html>

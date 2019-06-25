@@ -16,6 +16,7 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'dashboard' );
 	wp_enqueue_style( 'list-tables' );
 	wp_enqueue_style( 'edit' );
+	wp_enqueue_style( 'widgets' );
 	wp_enqueue_style( 'revisions' );
 	wp_enqueue_style( 'media' );
 	wp_enqueue_style( 'themes' );
@@ -26,25 +27,36 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'wpadminref-styles', get_theme_file_uri( '/assets/styles/main.css' ), array(), filemtime( get_theme_file_uri( '/assets/styles/main.css' ) ) );
 } );
 
+
 add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_script( 'jquery-core' );
 	wp_enqueue_script( 'jquery-migrate' );
+    wp_enqueue_script( 'jquery-query' );
 	wp_enqueue_script( 'jquery-ui-core' );
+    wp_enqueue_script( 'ui-widget' );
 	wp_enqueue_script( 'jquery-ui-mouse' );
-	wp_enqueue_script( 'jquery-ui-sortable' );
 	wp_enqueue_script( 'jquery-ui-resizable' );
 	wp_enqueue_script( 'jquery-ui-draggable' );
+    wp_enqueue_script( 'jquery-ui-sortable' );
 	wp_enqueue_script( 'jquery-ui-button' );
 	wp_enqueue_script( 'jquery-ui-position' );
 	wp_enqueue_script( 'jquery-ui-dialog' );
 	wp_enqueue_script( 'jquery-ui-menu' );
 	wp_enqueue_script( 'jquery-ui-autocomplete' );
+	wp_enqueue_script( 'postbox', admin_url( 'js/postbox.js' ), [ 'jquery-ui-sortable' ], true, true );
+    wp_enqueue_script( 'underscore', admin_url( 'js/underscore.js' ), [ 'jquery-ui-sortable' ], true, true );
+	wp_enqueue_script( 'utils' );
 	wp_enqueue_script( 'hoverIntent' );
 	wp_enqueue_script( 'common' );
-	wp_enqueue_script( 'wp-lists' );
-	wp_enqueue_script( 'postbox' );
-	wp_enqueue_script( 'admin-bar' );
-	wp_enqueue_script( 'utils' );
+	wp_enqueue_script( 'jquery-color' );
+    wp_enqueue_script( 'admin-bar' );
+    wp_enqueue_script( 'wp-ajax-response' );
+    wp_enqueue_script( 'wp-lists' );
+    wp_enqueue_script( 'quicktags' );
+    wp_enqueue_script( 'admin-comments' );
+	wp_enqueue_script( 'quicktags' );
+	wp_enqueue_script( 'jquery-query' );
+	wp_enqueue_script( 'jquery-color' );
 	wp_enqueue_script( 'dashboard' );
 	wp_enqueue_script( 'thickbox' );
 	wp_enqueue_script( 'shortc' );
@@ -92,4 +104,3 @@ add_filter( 'wpadminref/sections', function( $sections ) {
 	return $sections;
 
 } );
-
