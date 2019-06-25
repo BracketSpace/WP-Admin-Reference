@@ -7,7 +7,7 @@
 
 add_theme_support( 'title-tag' );
 
-add_action( 'wp_enqueue_scripts', function () {
+add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'dashicons' );
 	wp_enqueue_style( 'admin-bar' );
 	wp_enqueue_style( 'common' );
@@ -27,8 +27,12 @@ add_action( 'wp_enqueue_scripts', function () {
 	wp_enqueue_style( 'wpadminref-styles', get_theme_file_uri( '/assets/styles/main.css' ), array(), filemtime( get_theme_file_uri( '/assets/styles/main.css' ) ) );
 } );
 
+<<<<<<< HEAD
 
 add_action( 'wp_enqueue_scripts', function () {
+=======
+add_action( 'wp_enqueue_scripts', function() {
+>>>>>>> 3a55bd5a03a92666425f5cf561e19bb04b82bad4
 	wp_enqueue_script( 'jquery-core' );
 	wp_enqueue_script( 'jquery-migrate' );
     wp_enqueue_script( 'jquery-query' );
