@@ -1,17 +1,14 @@
-jQuery( document ).ready(function() {
+/**
+ * External dependencies
+ */
+import 'jquery';
+import 'waypoints';
 
-	jQuery( '.section' ).each( function() {
+/**
+ * Internal dependencies
+ */
+import * as sectionMenu from './functions/sectionMenu.js';
 
-		var $section_id = jQuery( this ).attr( 'id' );
-
-		var waypoint = new Waypoint({
-			element: document.getElementById( $section_id ),
-			handler: function( direction ) {
-				jQuery( '.menu-top' ).removeClass( 'current' );
-				jQuery( '.menu-top[data-menu="' + $section_id + '"' ).addClass( 'current' );
-			},
-			continuous: false,
-			offset: '0'
-		})
-	});
-});
+$( function() {
+	sectionMenu.init();
+} );

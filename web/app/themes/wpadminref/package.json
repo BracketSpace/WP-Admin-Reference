@@ -8,6 +8,7 @@
     "lint:js": "wp-scripts lint-js ./assets/scripts"
   },
   "dependencies": {
+    "lint": "^0.7.0",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {

@@ -59,7 +59,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'dashboard' );
 	wp_enqueue_script( 'thickbox' );
 	wp_enqueue_script( 'shortc' );
-	wp_enqueue_script( 'waypoints', get_theme_file_uri( '/node_modules/waypoints/lib/jquery.waypoints.min.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/waypoints/lib/jquery.waypoints.min.js' ) ), true );
+	wp_enqueue_script( 'waypoints', get_theme_file_uri( '/node_modules/waypoints/lib/jquery.waypoints.min.js' ), array( 'jquery' ), '4.0.1' , true );
 	wp_enqueue_script( 'wpadminref-script', get_theme_file_uri( '/assets/scripts/main.js' ), array(), filemtime( get_theme_file_uri( '/assets/scripts/main.js' ) ), true );
 } );
 

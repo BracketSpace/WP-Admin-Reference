@@ -1,0 +1,4 @@
+"globals": {
+	"$": true,
+}
+"parser": "babel-eslint"
