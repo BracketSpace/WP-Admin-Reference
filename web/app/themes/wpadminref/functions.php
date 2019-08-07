@@ -24,6 +24,9 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'nav-menus' );
 	wp_enqueue_style( 'wp-pointer' );
 	wp_enqueue_style( 'widgets' );
+	wp_enqueue_style( 'colors' );
+	wp_enqueue_style( 'prism-tomorrow', get_theme_file_uri( '/node_modules/prismjs/themes/prism-okaidia.css' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/themes/prism-okaidia.css' ) ), all );
+	wp_enqueue_style( 'prism-line-numbers', get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css' ) ), all );
 	wp_enqueue_style( 'wpadminref-styles', get_theme_file_uri( '/assets/styles/main.css' ), array(), filemtime( get_theme_file_uri( '/assets/styles/main.css' ) ), all );
 } );
 
@@ -60,6 +63,10 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'thickbox' );
 	wp_enqueue_script( 'shortc' );
 	wp_enqueue_script( 'waypoints', get_theme_file_uri( '/node_modules/waypoints/lib/jquery.waypoints.min.js' ), array( 'jquery' ), '4.0.1', true );
+	wp_enqueue_script( 'prismjs', get_theme_file_uri( '/node_modules/prismjs/prism.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/prism.js' ) ), true );
+	wp_enqueue_script( 'prismjs-line-numbers', get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js' ) ), true );
+	wp_enqueue_script( 'prism-normalize-whitespace', get_theme_file_uri( '/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js' ) ), true );
+	wp_enqueue_script( 'sectionMenu', get_theme_file_uri( '/assets/scripts/functions/sectionMenu.js' ), array(), filemtime( get_theme_file_uri( '/assets/scripts/functions/sectionMenu.js' ) ), true );
 	wp_enqueue_script( 'wpadminref-script', get_theme_file_uri( '/assets/scripts/main.js' ), array(), filemtime( get_theme_file_uri( '/assets/scripts/main.js' ) ), true );
 } );
 

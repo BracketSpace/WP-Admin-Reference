@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "lint": "^0.7.0",
+    "prismjs": "^1.17.1",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
