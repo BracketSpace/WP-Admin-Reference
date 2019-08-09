@@ -78,8 +78,29 @@
 	display: block;
 }
 
+.text-center {
+	text-align: center;
+}
+
 pre {
 	white-space: pre-line;
+}
+
+.dashicons-box {
+	max-width: 35rem;
+	margin: auto;
+	text-align: center;
+}
+
+.dashicons-box p {
+	font-size: 1.5rem;
+}
+
+.wp-core-ui .button.button-big {
+	height: 56px;
+	padding: 0 2rem;
+	line-height: 54px;
+	font-size: 1rem;
 }
 
 @media (max-width: 782px) {

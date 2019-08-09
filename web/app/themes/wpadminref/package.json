@@ -8,6 +8,7 @@
     "lint:js": "wp-scripts lint-js ./assets/scripts"
   },
   "dependencies": {
+    "clipboard": "^2.0.4",
     "lint": "^0.7.0",
     "prismjs": "^1.17.1",
     "waypoints": "^4.0.1"

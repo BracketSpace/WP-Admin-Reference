@@ -47,7 +47,10 @@
 	</div>
 
 	<div class="section-code">
-		<pre class="section-markup-code line-numbers language-markup"><code class="editor-code line-numbers language-markup"></code><textarea class="editor-content"></textarea></pre>
+		<pre class="section-markup-code line-numbers language-markup"><code class="editor-code line-numbers language-markup"></code></pre>
+		<div class="section-code-functions">
+			<button class="button button-primary copy-to-clipboard">Copy to clipboard</button>
+		</div>
 	</div>
 
 </section>
