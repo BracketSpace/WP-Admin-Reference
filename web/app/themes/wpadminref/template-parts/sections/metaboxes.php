@@ -7,7 +7,6 @@
 
 ?>
 <section class="section section-metaboxes" id="metaboxes">
-
 	<header class="section-header">
 		<h1>Metaboxes</h1>
 		<div class="switch-button">
@@ -45,12 +44,10 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="section-code">
 		<pre class="section-markup-code line-numbers language-markup"><code class="editor-code line-numbers language-markup"></code></pre>
 		<div class="section-code-functions">
 			<button class="button button-primary copy-to-clipboard">Copy to clipboard</button>
 		</div>
 	</div>
-
 </section>

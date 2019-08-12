@@ -11,4 +11,16 @@ function sectionMenu() {
 			offset: '0',
 		} );
 	} );
+
+  jQuery("a").on( 'click', function( e ) {
+    if ( this.hash !== '' ) {
+      e.preventDefault();
+      var hash = this.hash;
+      jQuery('html, body').animate( {
+        scrollTop: jQuery( hash ).offset().top -50
+      }, 300, function(){
+        window.location.hash = hash;
+      } );
+    }
+  });
 }

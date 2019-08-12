@@ -3,7 +3,7 @@ sectionMenu();
 jQuery( '.button-switch-view' ).click( function (e) {
 	e.preventDefault();
 	jQuery(this).text( function( text ){
-			return text === "Change view to markup" ? "Change view to code" : "Change view to markup";
+		return text == "Change view to code" ? "Change view to markup" : "Change view to code";
 	})
 	const section = jQuery( this ).data( 'action' );
 
@@ -23,9 +23,5 @@ Prism.plugins.NormalizeWhitespace.setDefaults({
 	'left-trim': true,
 	'right-trim': true,
 	'break-lines': 200,
-	'indent': 0,
-	'remove-initial-line-feed': false,
-	'tabs-to-spaces': 2,
-	'spaces-to-tabs': 2
 });
 

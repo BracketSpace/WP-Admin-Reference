@@ -96,6 +96,10 @@ add_filter( 'wpadminref/sections', function( $sections ) {
 		'title' => __( 'Tables', 'wpadminref' ),
 	];
 
+	$sections['post_list'] = [
+		'icon'  => 'editor-justify',
+		'title' => __( 'Post List', 'wpadminref' ),
+	];
 	$sections['spinners'] = [
 		'icon'  => 'update-alt',
 		'title' => __( 'Spinners', 'wpadminref' ),
