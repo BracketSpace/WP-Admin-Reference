@@ -100,7 +100,7 @@ add_filter( 'wpadminref/sections', function( $sections ) {
 		'icon'  => 'editor-justify',
 		'title' => __( 'Post List', 'wpadminref' ),
 	];
-	$sections['spinners'] = [
+	$sections['spinners']  = [
 		'icon'  => 'update-alt',
 		'title' => __( 'Spinners', 'wpadminref' ),
 	];
