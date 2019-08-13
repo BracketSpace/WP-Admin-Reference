@@ -83,6 +83,14 @@
 
 pre {
 	white-space: pre-line;
+	max-height: 30em;
+	overflow: auto;
+}
+
+code,
+pre {
+	font-family: Consolas, Monaco, "Andale Mono", "Lucida Console", monospace;
+	hyphens: none;
 }
 
 .dashicons-box {

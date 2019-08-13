@@ -2,11 +2,11 @@ sectionMenu();
 
 jQuery( '.button-switch-view' ).click( function (e) {
 	e.preventDefault();
-	jQuery(this).text( function( text ){
-		return text == "Change view to code" ? "Change view to markup" : "Change view to code";
-	})
-	const section = jQuery( this ).data( 'action' );
+	e.stopPropagation();
+	e.stopImmediatePropagation();
+	jQuery( this ).text() === 'Show code' ? jQuery(this).text('Show markup') : jQuery(this).text('Show code');
 
+	const section = jQuery( this ).data( 'action' );
 	const code = jQuery( section ).children( '.section-content' ).html();
 	const section_markup_code = jQuery( section ).find( '.section-markup-code code' );
 

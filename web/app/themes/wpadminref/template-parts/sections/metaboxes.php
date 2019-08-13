@@ -5,12 +5,14 @@
  * @package wpadminref
  */
 
+do_action( 'do_meta_boxes', $screen->id, 'normal', '' );
+
 ?>
 <section class="section section-metaboxes" id="metaboxes">
 	<header class="section-header">
 		<h1>Metaboxes</h1>
 		<div class="switch-button">
-			<button data-action="#metaboxes" class="button button-primary button-switch-view">Change view to code</button>
+			<button data-action="#metaboxes" class="button button-primary button-switch-view">Show code</button>
 		</div>
 	</header>
 	<div class="section-content">

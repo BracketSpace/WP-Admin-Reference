@@ -10,7 +10,7 @@
 	<header class="section-header">
 		<h1>Tables</h1>
 		<div class="switch-button">
-			<button data-action="#tables" class="button button-primary button-switch-view">Change view to code</button>
+			<button data-action="#tables" class="button button-primary button-switch-view">Show code</button>
 		</div>
 	</header>
 	<div class="section-content">

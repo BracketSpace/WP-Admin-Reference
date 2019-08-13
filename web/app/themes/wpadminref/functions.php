@@ -8,6 +8,7 @@
 add_theme_support( 'title-tag' );
 
 add_action( 'wp_enqueue_scripts', function() {
+	wp_enqueue_style( 'wp-admin' );
 	wp_enqueue_style( 'dashicons' );
 	wp_enqueue_style( 'admin-bar' );
 	wp_enqueue_style( 'common' );
@@ -16,7 +17,6 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'dashboard' );
 	wp_enqueue_style( 'list-tables' );
 	wp_enqueue_style( 'edit' );
-	wp_enqueue_style( 'widgets' );
 	wp_enqueue_style( 'revisions' );
 	wp_enqueue_style( 'media' );
 	wp_enqueue_style( 'themes' );
@@ -25,13 +25,15 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'wp-pointer' );
 	wp_enqueue_style( 'widgets' );
 	wp_enqueue_style( 'colors' );
-	wp_enqueue_style( 'prism-okaidia', get_theme_file_uri( '/node_modules/prismjs/themes/prism-okaidia.css' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/themes/prism-okaidia.css' ) ), all );
-	wp_enqueue_style( 'prism-toolbar', get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.css' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.css' ) ), all );
-	wp_enqueue_style( 'prism-line-numbers', get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css' ) ), all );
+	wp_enqueue_style( 'prism-okaidia', get_theme_file_uri( '/node_modules/prismjs/themes/prism-okaidia.css' ), array(), '1.0.0', all );
+	wp_enqueue_style( 'prism-toolbar', get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.css' ), array(), '1.0.0', all );
+	wp_enqueue_style( 'prism-line-numbers', get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css' ), array(), '1.0.0', all );
 	wp_enqueue_style( 'wpadminref-styles', get_theme_file_uri( '/assets/styles/main.css' ), array(), filemtime( get_theme_file_uri( '/assets/styles/main.css' ) ), all );
 } );
 
 add_action( 'wp_enqueue_scripts', function() {
+  wp_enqueue_script( 'my-ajax-handle', plugin_dir_url( __FILE__ ) . 'myajax.js', array( 'jquery' ) );
+  wp_localize_script( 'my-ajax-handle', 'the_ajax_script', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 	wp_enqueue_script( 'jquery-core' );
 	wp_enqueue_script( 'jquery-migrate' );
 	wp_enqueue_script( 'jquery-query' );
