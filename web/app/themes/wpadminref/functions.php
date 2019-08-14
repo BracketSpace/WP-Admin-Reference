@@ -32,8 +32,6 @@ add_action( 'wp_enqueue_scripts', function() {
 } );
 
 add_action( 'wp_enqueue_scripts', function() {
-  wp_enqueue_script( 'my-ajax-handle', plugin_dir_url( __FILE__ ) . 'myajax.js', array( 'jquery' ) );
-  wp_localize_script( 'my-ajax-handle', 'the_ajax_script', array( 'ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
 	wp_enqueue_script( 'jquery-core' );
 	wp_enqueue_script( 'jquery-migrate' );
 	wp_enqueue_script( 'jquery-query' );

@@ -25,3 +25,12 @@ Prism.plugins.NormalizeWhitespace.setDefaults({
 	'break-lines': 200,
 });
 
+jQuery(document).on('ready', function( jQuery ){
+  postboxes.save_state = function(){
+      return;
+  };
+  postboxes.save_order = function(){
+      return;
+  };
+  postboxes.add_postbox_toggles();
+});

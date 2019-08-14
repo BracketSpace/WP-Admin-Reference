@@ -4,9 +4,6 @@
  *
  * @package wpadminref
  */
-
-do_action( 'do_meta_boxes', $screen->id, 'normal', '' );
-
 ?>
 <section class="section section-metaboxes" id="metaboxes">
 	<header class="section-header">
