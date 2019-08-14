@@ -6,6 +6,7 @@
  */
 
 ?>
+
 <section class="section section-spinners" id="post_list">
 	<header class="section-header">
 		<h1>Post List</h1>
@@ -182,7 +183,6 @@
 			</tfoot>
 		</table>
 	</div>
-	
 	<div class="section-code">
 		<pre class="section-markup-code line-numbers language-markup"><code class="editor-code line-numbers language-markup"></code></pre>
 		<div class="section-code-functions">

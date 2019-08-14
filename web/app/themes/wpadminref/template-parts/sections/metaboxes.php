@@ -4,7 +4,9 @@
  *
  * @package wpadminref
  */
+
 ?>
+
 <section class="section section-metaboxes" id="metaboxes">
 	<header class="section-header">
 		<h1>Metaboxes</h1>
