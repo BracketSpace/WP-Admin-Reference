@@ -55,20 +55,6 @@
 	display: block;
 }
 
-.editor-content {
-	position: absolute;
-	top: 1em;
-	left: 1em;
-	right: 1em;
-	bottom: 1em;
-	opacity: 0;
-	width: calc(100% - 2em);
-	height: calc(100% - 2em);
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 .hidden {
 	display: none;
 }
@@ -83,7 +69,7 @@
 
 pre {
 	white-space: pre-line;
-	max-height: 30em;
+	max-height: calc(100vh - 10%);
 	overflow: auto;
 }
 
@@ -112,6 +98,58 @@ pre {
 
 .block {
 	margin-bottom: 2rem;
+}
+
+.grid-2 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 1fr;
+	grid-template-areas: ". .";
+	grid-gap: 1rem;
+}
+
+.column-code {
+	padding-top: 5px;
+}
+
+.switch-button {
+	display: none;
+}
+
+#dashboard-widgets .meta-box-sortables {
+	position: relative;
+	min-height: 40px;
+}
+
+.meta-box-sortables::before {
+	content: "Drag and drop metabox here";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	font-size: 1rem;
+	text-align: center;
+	border: 3px dashed #b4b9be;
+	color: #bbb;
+}
+
+#dashboard-widgets .postbox-container {
+	width: 50%;
+}
+
+@media (max-width: 1199px) {
+
+	.grid-2 {
+		grid-template-columns: 100%;
+	}
+
+	.switch-button {
+		display: block;
+	}
 }
 
 @media (max-width: 782px) {
