@@ -8,7 +8,7 @@
 ?>
 
 <section class="section section-about" id="credits">
-	<div class="section-content d-flex flex-column align-items-center justify-content-center h-100">
+	<div class="section-content large-text d-flex flex-column align-items-center justify-content-center h-100">
 		<h1>Credits</h1>
 		<p>
 			This website was made with love by
