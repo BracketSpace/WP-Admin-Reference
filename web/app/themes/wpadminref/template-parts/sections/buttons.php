@@ -8,7 +8,6 @@
 ?>
 <section class="section section-buttons" id="buttons">
 	<h1>Buttons</h1>
-	<p>Just copy the code you like and enjoy.</p>
 	<hr/>
 	<div class="section-content ">
 		<div class="block">
@@ -16,7 +15,7 @@
 			<a href="#" class="button button-primary">Primary Button</a>
 			<pre class="line-numbers language-markup">
 				<code class="language-markup">
-					&lt;a href=&quot;#&quot; class=&quot;button button-primary&quot;&gt;Default Button&lt;/a&gt;
+					&lt;a href=&quot;#&quot; class=&quot;button button-primary&quot;&gt;Primary Button&lt;/a&gt;
 				</code>
 			</pre>
 		</div>
@@ -26,6 +25,24 @@
 			<pre class="line-numbers language-markup">
 				<code class="language-markup">
 					&lt;a href=&quot;#&quot; class=&quot;button button-secondary&quot;&gt;Default Button&lt;/a&gt;
+				</code>
+			</pre>
+		</div>
+		<div class="block">
+			<p>Hero Button</p>
+			<a href="#" class="button button-hero">Hero Button</a>
+			<pre class="line-numbers language-markup">
+				<code class="language-markup">
+					&lt;a href=&quot;#&quot; class=&quot;button button-hero&quot;&gt;Hero Button&lt;/a&gt;
+				</code>
+			</pre>
+		</div>
+		<div class="block">
+			<p>Hero Primary Button</p>
+			<a href="#" class="button button-primary button-hero">Hero Primary Button</a>
+			<pre class="line-numbers language-markup">
+				<code class="language-markup">
+					&lt;a href=&quot;#&quot; class=&quot;button button-hero&quot;&gt;Hero Primary Button&lt;/a&gt;
 				</code>
 			</pre>
 		</div>
