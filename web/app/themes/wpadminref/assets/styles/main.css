@@ -180,9 +180,7 @@ pre {
 	display: block;
 	max-width: 25rem;
 	margin: auto;
-	padding: 1.5rem 2rem;
-	background: #282e34;
-	border-radius: 0.25rem;
+	padding: 1rem 2rem;
 }
 
 .logo-link:hover {
