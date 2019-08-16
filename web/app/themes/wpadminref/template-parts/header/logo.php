@@ -1,9 +1,15 @@
+<?php
+/**
+ * SVG logo
+ *
+ * @package wpadminref
+ */
+
+?>
+
 <div class="logo-wrapper">
-	<?xml version="1.0" encoding="utf-8"?>
-	<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
 	<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-		 width="54.004px" height="54px" viewBox="0 0 54.004 54" enable-background="new 0 0 54.004 54" xml:space="preserve">
+	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="54.004px" height="54px" viewBox="0 0 54.004 54" enable-background="new 0 0 54.004 54" xml:space="preserve">
 	<pattern  x="-280.021" y="422.341" width="69" height="69" patternUnits="userSpaceOnUse" id="Polka_Dot_Pattern" viewBox="2.125 -70.896 69 69" overflow="visible">
 		<g>
 			<polygon fill="none" points="71.125,-1.896 2.125,-1.896 2.125,-70.896 71.125,-70.896 		"/>
