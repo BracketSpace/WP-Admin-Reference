@@ -135,7 +135,6 @@ pre {
 	display: grid;
 	grid-template-columns: 45% 55%;
 	grid-template-rows: 1fr;
-	grid-template-areas: ". .";
 	grid-gap: 1rem;
 }
 
