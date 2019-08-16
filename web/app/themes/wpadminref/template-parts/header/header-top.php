@@ -12,8 +12,8 @@
 		<ul id="wp-admin-bar-root-default" class="ab-top-menu">
 			<li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="#" aria-expanded="false"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li>
 			<li id="wp-admin-bar-wp-logo" class="menupop">
-				<a class="ab-item" aria-haspopup="true" href="https://bracketspace.com/" target="_blank">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bracketspace-logo.svg" class="wp-admin-icon" alt="WP-Admin reference">
+				<a class="ab-item" aria-haspopup="true" href="<?php echo esc_url( home_url( '/' ) ); ?>" target="_blank">
+					<?php get_template_part( 'template-parts/header/logo' ); ?>
 					<span class="screen-reader-text">BracketSpace</span>
 				</a>
 				<div class="ab-sub-wrapper">

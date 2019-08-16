@@ -15,7 +15,7 @@
 		</div>
 	</header>
 	<div class="section-content">
-		<table class="wp-list-table widefat fixed striped posts">
+		<table class="wp-list-table widefat fixed striped posts markup-holder">
 			<thead>
 				<tr>
 					<td id="cb" class="manage-column column-cb check-column">
@@ -46,12 +46,12 @@
 			</thead>
 			<tbody id="the-list">
 				<tr id="post-1" class="iedit author-self level-0 post-1 type-post status-publish format-standard hentry category-uncategorized">
-					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">Select Hello world!</label>
+					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">Select Welcome to the wp-admin reference jungle!</label>
 						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
 						<div class="locked-indicator">
 							<span class="locked-indicator-icon" aria-hidden="true"></span>
 							<span class="screen-reader-text">
-								“Hello world!” is locked
+								“Welcome to the wp-admin reference jungle!” is locked
 							</span>
 						</div>
 					</th>
@@ -61,41 +61,23 @@
 							<span class="locked-text"></span>
 						</div>
 						<strong>
-							<a class="row-title" href="/wp-admin/post.php?post=1&amp;action=edit" aria-label="“Hello world!” (Edit)">Hello world!</a>
+							<a class="row-title" href="#" aria-label="“Welcome to the wp-admin reference jungle!” (Edit)">
+								Welcome to the wp-admin reference jungle!
+							</a>
 						</strong>
-
-						<div class="hidden" id="inline_1">
-							<div class="post_title">Hello world!</div><div class="post_name">hello-world</div>
-							<div class="post_author">1</div>
-							<div class="comment_status">open</div>
-							<div class="ping_status">open</div>
-							<div class="_status">publish</div>
-							<div class="jj">06</div>
-							<div class="mm">08</div>
-							<div class="aa">2019</div>
-							<div class="hh">08</div>
-							<div class="mn">24</div>
-							<div class="ss">06</div>
-							<div class="post_password"></div>
-							<div class="page_template">default</div>
-							<div class="post_category" id="category_1">1</div>
-							<div class="tags_input" id="post_tag_1"></div>
-							<div class="sticky"></div>
-							<div class="post_format"></div>
-						</div>
 
 						<div class="row-actions">
 							<span class="edit">
-								<a href="/wp-admin/post.php?post=1&amp;action=edit" aria-label="Edit “Hello world!”">Edit</a> | 
+								<a href="#" aria-label="Edit “Welcome to the wp-admin reference jungle!”">Edit</a> | 
 							</span>
 							<span class="inline hide-if-no-js">
-								<button type="button" class="button-link editinline" aria-label="Quick edit “Hello world!” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
+								<button type="button" class="button-link editinline" aria-label="Quick edit “Welcome to the wp-admin reference jungle!” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
 							</span>
 							<span class="trash">
-								<a href="/wp-admin/post.php?post=1&amp;action=trash&amp;_wpnonce=4c79a816df" class="submitdelete" aria-label="Move “Hello world!” to the Trash">Trash</a> | 
+								<a href="#" class="submitdelete" aria-label="Move “Welcome to the wp-admin reference jungle!” to the Trash">Trash</a> | 
 							</span>
 							<span class="view">
-								<a href="http://wpadmin.bracketspace.localhost/?p=1" rel="bookmark" aria-label="View “Hello world!”">View</a>
+								<a href="#" rel="bookmark" aria-label="View “Welcome to the wp-admin reference jungle!”">View</a>
 							</span>
 						</div>
 
@@ -105,11 +87,11 @@
 					</td>
 
 					<td class="author column-author" data-colname="Author">
-						<a href="edit.php?post_type=post&amp;author=1">krzysztof@bracketspace.com</a>
+						<a href="https://bracketspace.com/" target="_blank">bracketspace.com</a>
 					</td>
 
 					<td class="categories column-categories" data-colname="Categories">
-						<a href="edit.php?category_name=uncategorized">Uncategorized</a>
+						<a href="#post_list">Best category ever</a>
 					</td>
 
 					<td class="tags column-tags" data-colname="Tags">
@@ -119,7 +101,7 @@
 
 					<td class="comments column-comments" data-colname="Comments">
 						<div class="post-com-count-wrapper">
-							<a href="/wp-admin/edit-comments.php?p=1&amp;comment_status=approved" class="post-com-count post-com-count-approved">
+							<a href="#post_list" class="post-com-count post-com-count-approved">
 								<span class="comment-count-approved" aria-hidden="true">1</span>
 								<span class="screen-reader-text">1 comment</span>
 							</a>
@@ -131,7 +113,221 @@
 					</td>
 
 					<td class="date column-date" data-colname="Date">
-						Published<br><abbr title="2019/08/06 8:24:06 am">2019/08/06</abbr>
+						Published<br><abbr title="2059/12/12 8:24:06 am">01/09/1939</abbr>
+					</td>
+				</tr>
+				<tr id="post-2" class="iedit author-self level-0 post-2 type-post status-publish format-standard hentry category-uncategorized">
+					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">we got fun n' games</label>
+						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
+						<div class="locked-indicator">
+							<span class="locked-indicator-icon" aria-hidden="true"></span>
+							<span class="screen-reader-text">
+								“we got fun n' games” is locked
+							</span>
+						</div>
+					</th>
+					<td class="title column-title has-row-actions column-primary page-title" data-colname="Title">
+						<div class="locked-info">
+							<span class="locked-avatar"></span> 
+							<span class="locked-text"></span>
+						</div>
+						<strong>
+							<a class="row-title" href="#" aria-label="“we got fun n' games” (Edit)">
+								We got fun n' games
+							</a>
+						</strong>
+
+						<div class="row-actions">
+							<span class="edit">
+								<a href="#" aria-label="Edit “Welcome to the wp-admin reference jungle!”">Edit</a> | 
+							</span>
+							<span class="inline hide-if-no-js">
+								<button type="button" class="button-link editinline" aria-label="Quick edit “Welcome to the wp-admin reference jungle!” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
+							</span>
+							<span class="trash">
+								<a href="#" class="submitdelete" aria-label="Move “Welcome to the wp-admin reference jungle!” to the Trash">Trash</a> | 
+							</span>
+							<span class="view">
+								<a href="#" rel="bookmark" aria-label="View “Welcome to the wp-admin reference jungle!”">View</a>
+							</span>
+						</div>
+
+						<button type="button" class="toggle-row">
+							<span class="screen-reader-text">Show more details</span>
+						</button>
+					</td>
+
+					<td class="author column-author" data-colname="Author">
+						<a href="https://bracketspace.com/" target="_blank">bracketspace.com</a>
+					</td>
+
+					<td class="categories column-categories" data-colname="Categories">
+						<a href="#post_list">Best category ever</a>
+					</td>
+
+					<td class="tags column-tags" data-colname="Tags">
+						<span aria-hidden="true">—</span>
+						<span class="screen-reader-text">No tags</span>
+					</td>
+
+					<td class="comments column-comments" data-colname="Comments">
+						<div class="post-com-count-wrapper">
+							<a href="#post_list" class="post-com-count post-com-count-approved">
+								<span class="comment-count-approved" aria-hidden="true">2</span>
+								<span class="screen-reader-text">2 comment</span>
+							</a>
+							<span class="post-com-count post-com-count-pending post-com-count-no-pending">
+								<span class="comment-count comment-count-no-pending" aria-hidden="true">0</span>
+								<span class="screen-reader-text">No pending comments</span>
+							</span>		
+						</div>
+					</td>
+
+					<td class="date column-date" data-colname="Date">
+						Published<br><abbr title="2059/12/12 8:24:06 am">2059/12/12</abbr>
+					</td>
+				</tr>
+
+				<tr id="post-3" class="iedit author-self level-0 post-3 type-post status-publish format-standard hentry category-uncategorized">
+					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">Select We got everything you want</label>
+						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
+						<div class="locked-indicator">
+							<span class="locked-indicator-icon" aria-hidden="true"></span>
+							<span class="screen-reader-text">
+								“We got everything you want” is locked
+							</span>
+						</div>
+					</th>
+					<td class="title column-title has-row-actions column-primary page-title" data-colname="Title">
+						<div class="locked-info">
+							<span class="locked-avatar"></span> 
+							<span class="locked-text"></span>
+						</div>
+						<strong>
+							<a class="row-title" href="#" aria-label="“We got everything you want” (Edit)">We got everything you want
+							</a>
+						</strong>
+
+						<div class="row-actions">
+							<span class="edit">
+								<a href="#" aria-label="Edit “We got everything you want”">Edit</a> | 
+							</span>
+							<span class="inline hide-if-no-js">
+								<button type="button" class="button-link editinline" aria-label="Quick edit “We got everything you want” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
+							</span>
+							<span class="trash">
+								<a href="#" class="submitdelete" aria-label="Move “We got everything you want” to the Trash">Trash</a> | 
+							</span>
+							<span class="view">
+								<a href="#" rel="bookmark" aria-label="View “We got everything you want”">View</a>
+							</span>
+						</div>
+
+						<button type="button" class="toggle-row">
+							<span class="screen-reader-text">Show more details</span>
+						</button>
+					</td>
+
+					<td class="author column-author" data-colname="Author">
+						<a href="https://bracketspace.com/" target="_blank">bracketspace.com</a>
+					</td>
+
+					<td class="categories column-categories" data-colname="Categories">
+						<a href="#post_list">Best category ever</a>
+					</td>
+
+					<td class="tags column-tags" data-colname="Tags">
+						<span aria-hidden="true">—</span>
+						<span class="screen-reader-text">No tags</span>
+					</td>
+
+					<td class="comments column-comments" data-colname="Comments">
+						<div class="post-com-count-wrapper">
+							<a href="#post_list" class="post-com-count post-com-count-approved">
+								<span class="comment-count-approved" aria-hidden="true">777</span>
+								<span class="screen-reader-text">777 comment</span>
+							</a>
+							<span class="post-com-count post-com-count-pending post-com-count-no-pending">
+								<span class="comment-count comment-count-no-pending" aria-hidden="true">0</span>
+								<span class="screen-reader-text">No pending comments</span>
+							</span>		
+						</div>
+					</td>
+
+					<td class="date column-date" data-colname="Date">
+						Published<br><abbr title="2059/12/12 8:24:06 am">2059/12/12</abbr>
+					</td>
+				</tr>
+
+
+				<tr id="post-4" class="iedit author-self level-0 post-4 type-post status-publish format-standard hentry category-uncategorized">
+					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">Select Ohh, I wanna hear you scream</label>
+						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
+						<div class="locked-indicator">
+							<span class="locked-indicator-icon" aria-hidden="true"></span>
+							<span class="screen-reader-text">
+								“Ohh, I wanna hear you scream” is locked
+							</span>
+						</div>
+					</th>
+					<td class="title column-title has-row-actions column-primary page-title" data-colname="Title">
+						<div class="locked-info">
+							<span class="locked-avatar"></span> 
+							<span class="locked-text"></span>
+						</div>
+						<strong>
+							<a class="row-title" href="#" aria-label="“Ohh, I wanna hear you scream” (Edit)">Ohh, I wanna hear you scream
+							</a>
+						</strong>
+
+						<div class="row-actions">
+							<span class="edit">
+								<a href="#" aria-label="Edit “Ohh, I wanna hear you scream”">Edit</a> | 
+							</span>
+							<span class="inline hide-if-no-js">
+								<button type="button" class="button-link editinline" aria-label="Quick edit “Ohh, I wanna hear you scream” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
+							</span>
+							<span class="trash">
+								<a href="#" class="submitdelete" aria-label="Move “Ohh, I wanna hear you scream” to the Trash">Trash</a> | 
+							</span>
+							<span class="view">
+								<a href="#" rel="bookmark" aria-label="View “Ohh, I wanna hear you scream”">View</a>
+							</span>
+						</div>
+
+						<button type="button" class="toggle-row">
+							<span class="screen-reader-text">Show more details</span>
+						</button>
+					</td>
+
+					<td class="author column-author" data-colname="Author">
+						<a href="https://bracketspace.com/" target="_blank">bracketspace.com</a>
+					</td>
+
+					<td class="categories column-categories" data-colname="Categories">
+						<a href="#post_list">Best category ever</a>
+					</td>
+
+					<td class="tags column-tags" data-colname="Tags">
+						<span aria-hidden="true">—</span>
+						<span class="screen-reader-text">No tags</span>
+					</td>
+
+					<td class="comments column-comments" data-colname="Comments">
+						<div class="post-com-count-wrapper">
+							<a href="#post_list" class="post-com-count post-com-count-approved">
+								<span class="comment-count-approved" aria-hidden="true">433</span>
+								<span class="screen-reader-text">433 comment</span>
+							</a>
+							<span class="post-com-count post-com-count-pending post-com-count-no-pending">
+								<span class="comment-count comment-count-no-pending" aria-hidden="true">0</span>
+								<span class="screen-reader-text">No pending comments</span>
+							</span>		
+						</div>
+					</td>
+
+					<td class="date column-date" data-colname="Date">
+						Published<br><abbr title="1987/09/28 8:24:06 am">1987/09/28</abbr>
 					</td>
 				</tr>
 			</tbody>
@@ -144,7 +340,7 @@
 					</td>
 
 					<th scope="col" class="manage-column column-title column-primary sortable desc">
-						<a href="/wp-admin/edit.php?orderby=title&amp;order=asc">
+						<a href="#post_list">
 							<span>Title</span>
 							<span class="sorting-indicator"></span>
 						</a>
@@ -163,7 +359,7 @@
 					</th>
 
 					<th scope="col" class="manage-column column-comments num sortable desc">
-						<a href="/wp-admin/edit.php?orderby=comment_count&amp;order=asc">
+						<a href="#post_list">
 							<span>
 								<span class="vers comment-grey-bubble" title="Comments">
 									<span class="screen-reader-text">Comments</span>
@@ -174,7 +370,7 @@
 					</th>
 
 					<th scope="col" class="manage-column column-date sortable asc">
-						<a href="/wp-admin/edit.php?orderby=date&amp;order=desc">
+						<a href="#post_list">
 							<span>Date</span>
 							<span class="sorting-indicator"></span>
 						</a>
@@ -185,8 +381,5 @@
 	</div>
 	<div class="section-code">
 		<pre class="section-markup-code line-numbers language-markup"><code class="editor-code line-numbers language-markup"></code></pre>
-		<div class="section-code-functions">
-			<button class="button button-primary copy-to-clipboard">Copy to clipboard</button>
-		</div>
 	</div>
 </section>

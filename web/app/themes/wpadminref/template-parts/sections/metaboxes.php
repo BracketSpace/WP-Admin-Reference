@@ -11,12 +11,12 @@
 	<header class="section-header">
 		<h1>Metaboxes</h1>
 		<div class="switch-button">
-			<button data-action="#metaboxes" class="button button-primary button-switch-view">Show code</button>
+			<button data-action="#metaboxes" class="button button-primary button-switch-view hidden">Show code</button>
 		</div>
 	</header>
 	<div class="section-content">
 		<div id="dashboard-widgets-wrap" class="grid-2">
-			<div id="dashboard-widgets" class="column-content metabox-holder">
+			<div id="dashboard-widgets" class="column-content markup-holder metabox-holder">
 				<div id="postbox-container-1" class="postbox-container">
 					<div id="normal-sortables" class="meta-box-sortables ui-sortable">
 						<div id="metabox" class="postbox">

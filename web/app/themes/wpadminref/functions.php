@@ -118,3 +118,9 @@ add_filter( 'wpadminref/sections', function( $sections ) {
 	return $sections;
 
 } );
+
+function get_current_url() {
+	$active_id = get_queried_object_id(); 
+	$current_url = get_permalink( $active_id );
+	return $current_url;
+}

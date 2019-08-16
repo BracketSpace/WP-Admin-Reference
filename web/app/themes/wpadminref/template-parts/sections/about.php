@@ -8,19 +8,14 @@
 ?>
 
 <section class="section section-about" id="about">
-	<h1>WP-Admin reference</h1>
-	<div class="section-content">
+	<div class="section-content d-flex flex-column align-items-center justify-content-center h-100">
+		<h1 class="big-title">WP-Admin reference</h1>
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at porta ipsum. Etiam ultrices rhoncus egestas. Quisque tempus ornare felis, in finibus lorem efficitur ut. Nullam consequat nisi eget fringilla ullamcorper. Nulla facilisi. Sed ornare faucibus ante, ac venenatis arcu condimentum sit amet. Nunc id ante orci.
+			This is a place where you can quickly reference elements from wp-admin. You can use them in your own plugins.
 		</p>
-		<p>
-			Sed dictum augue rutrum eros suscipit aliquam. In sagittis, ipsum at pellentesque sagittis, tellus tellus ultrices orci, ac lobortis erat lacus eget dui. Sed erat diam, viverra vel felis vitae, cursus efficitur est. Aliquam venenatis urna et vehicula aliquam. Nulla est massa, tempus ut semper non, scelerisque aliquet justo. Aliquam ac efficitur nulla. Nunc quis ante est.
+			<p>
+			This is an actual WordPress Dashboard loaded, all the styles and scripts are already available on the admin side, you can just grab the HTML and you are all set.
 		</p>
-		<p>
-			Donec ullamcorper ultricies sapien id dignissim. Etiam sit amet enim nulla. Mauris neque leo, bibendum non enim non, ultrices bibendum odio. Vestibulum euismod nisi ac tortor convallis, eget varius turpis blandit. Pellentesque in sem convallis, mollis lectus et, consequat velit. Proin accumsan justo eu elit elementum, in sagittis purus tempus. Aliquam quis volutpat mi, at tempor nisi. Phasellus aliquet magna eu massa tempor cursus. Etiam at turpis sed tellus scelerisque gravida eget eget arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate magna in malesuada fermentum. Aenean commodo lectus a mi fermentum facilisis interdum ut odio. Cras nibh nisi, imperdiet ac tellus sed, euismod finibus velit. In ornare ante eget augue vehicula luctus. Mauris mattis dictum cursus. Nam convallis faucibus pulvinar.
-		</p>
-		<p>
-			Nam diam orci, maximus eu dolor id, commodo malesuada neque. Fusce velit elit, tempor id tortor sed, tristique sodales neque. Donec fringilla, mauris non aliquet posuere, ex sem dapibus tortor, non vulputate nisi nisl at mauris. Morbi metus eros, accumsan sed pretium et, venenatis non lectus. Curabitur facilisis lacinia diam et viverra. Nulla luctus elit metus, eu sollicitudin libero tempor quis. Aenean fringilla varius lobortis. Sed euismod nulla nec maximus mattis. Sed et posuere dui. Cras euismod purus orci, at venenatis augue lobortis id. Integer porta auctor porttitor.
-		</p>
+		<p>WordPress version: <?php echo esc_html( get_bloginfo( 'version' ) ); ?></p>
 	</div>
 </section>

@@ -1,7 +1,20 @@
-#wpadminbar img.wp-admin-icon {
+#wpadminbar .logo-wrapper {
+	width: 20px;
+	height: 32px;
+}
+
+#wpadminbar .logo-wrapper svg {
 	width: 20px;
 	height: 20px;
 	margin: 6px 0;
+}
+
+#wpadminbar .logo-wrapper svg path {
+	fill: rgba(240, 245, 250, 0.6);
+}
+
+#wpadminbar .logo-wrapper:hover svg path {
+	fill: #fff;
 }
 
 #adminmenuwrap {
@@ -12,13 +25,20 @@
 	margin: 0 20px 0 2px;
 }
 
+.wrap h1.big-title {
+	font-size: 3rem;
+}
+
 .admin-bar .menupop:hover .ab-sub-wrapper {
 	display: block;
 }
 
 .section {
-	min-height: calc(100vh - 42px);
-	padding: 3rem 0;
+	padding: 5rem 0;
+}
+
+.section:first-of-type {
+	padding-top: 2rem;
 }
 
 .section-header {
@@ -68,8 +88,7 @@
 }
 
 pre {
-	white-space: pre-line;
-	max-height: calc(100vh - 10%);
+	max-height: calc(100vh - 10rem);
 	overflow: auto;
 }
 
@@ -102,7 +121,7 @@ pre {
 
 .grid-2 {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 45% 55%;
 	grid-template-rows: 1fr;
 	grid-template-areas: ". .";
 	grid-gap: 1rem;
@@ -112,7 +131,7 @@ pre {
 	padding-top: 5px;
 }
 
-.switch-button {
+.switch-button.hidden {
 	display: none;
 }
 
@@ -139,6 +158,63 @@ pre {
 
 #dashboard-widgets .postbox-container {
 	width: 50%;
+}
+
+.logo-link {
+	display: block;
+	max-width: 25rem;
+	margin: auto;
+	padding: 1.5rem 2rem;
+	background: #282e34;
+	border-radius: 0.25rem;
+}
+
+.logo-link:hover {
+	opacity: 0.9;
+}
+
+.logo-link img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.h-100 {
+	height: calc(100vh - 10rem);
+}
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+	border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #777;
 }
 
 @media (max-width: 1199px) {

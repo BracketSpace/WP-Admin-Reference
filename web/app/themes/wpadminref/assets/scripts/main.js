@@ -17,7 +17,7 @@ jQuery( '.button-switch-view' ).click( function (e) {
 	jQuery( this ).text() === 'Show code' ? jQuery(this).text('Show markup') : jQuery(this).text('Show code');
 
 	const section = jQuery( this ).data( 'action' );
-	const code = jQuery( section ).find( '.metabox-holder' ).html();
+	const code = jQuery( section ).find( '.markup-holder' ).html();
 	const section_markup_code = jQuery( section ).find( '.section-markup-code code' );
 
 	jQuery( section_markup_code ).text( code );
@@ -29,8 +29,6 @@ jQuery( '.button-switch-view' ).click( function (e) {
 jQuery( '.section-with-columns' ).each( function( index ) {
   const column_markup = jQuery( this ).find( '.column-content' ).html();
   const column_code = jQuery( this ).find( '.column-code code' );
-
-  console.log(column_markup);
 
 	jQuery( column_code ).text( column_markup );
 	Prism.highlightAll( jQuery( column_code )[0] );
