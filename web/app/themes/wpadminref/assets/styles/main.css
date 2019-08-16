@@ -68,7 +68,7 @@
 	clear: both;
 }
 
-.section-content.large-text p {
+.large-text p {
 	margin: 0;
 	font-size: 18px;
 	line-height: 1.8;
@@ -115,13 +115,9 @@ pre {
 }
 
 .dashicons-box {
-	max-width: 35rem;
-	margin: auto;
+	max-width: 45rem;
+	margin: 3rem auto;
 	text-align: center;
-}
-
-.dashicons-box p {
-	font-size: 1.5rem;
 }
 
 .wp-core-ui .button.button-big {

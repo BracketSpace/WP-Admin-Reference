@@ -7,9 +7,11 @@
 
 ?>
 <section class="section section-dashicons" id="dashicons">
-	<h1 class="text-center">Dashicons are over 250 icons, that can cover most, if not all of your needs!</h1>
+	<h1>Dashicons</h1>
 	<div class="section-content">
-		<div class="dashicons-box">
+		<div class="dashicons-box large-text">
+			<p class="text-center">Dashicons are over 250 icons, that can cover most, if not all of your needs!</p>
+			<br/>
 			<p>
 				<span class="dashicons dashicons-admin-site"></span>
 				<span class="dashicons dashicons-format-status"></span>
