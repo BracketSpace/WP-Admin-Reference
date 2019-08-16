@@ -9,6 +9,7 @@ function sectionMenu() {
 			},
 			continuous: false,
 			offset: '0',
+			tolerance: '60',
 		} );
 	} );
 

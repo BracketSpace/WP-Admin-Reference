@@ -34,7 +34,7 @@
 }
 
 .section {
-	padding: 5rem 0;
+	padding: 4rem 0 0 0;
 }
 
 .section:first-of-type {
@@ -196,7 +196,7 @@ pre {
 }
 
 .h-100 {
-	height: calc(100vh - 10rem);
+	height: calc(100vh - 3rem);
 }
 
 ::-webkit-scrollbar {
