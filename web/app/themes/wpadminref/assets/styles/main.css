@@ -25,6 +25,10 @@
 	margin: 0 20px 0 2px;
 }
 
+.wrap .notice .notice {
+	margin: 13px 0 38px 0;
+}
+
 .wrap h1.big-title {
 	font-size: 5rem;
 	font-weight: 700;
@@ -104,6 +108,7 @@
 }
 
 pre {
+	max-width: 100%;
 	max-height: calc(100vh - 10rem);
 	overflow: auto;
 }

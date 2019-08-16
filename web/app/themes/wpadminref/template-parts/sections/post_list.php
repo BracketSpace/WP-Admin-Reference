@@ -16,37 +16,10 @@
 	</header>
 	<div class="section-content">
 		<table class="wp-list-table widefat fixed striped posts markup-holder">
-			<thead>
-				<tr>
-					<td id="cb" class="manage-column column-cb check-column">
-						<label class="screen-reader-text" for="cb-select-all-1">Select All</label>
-						<input id="cb-select-all-1" type="checkbox">
-					</td>
-					<th scope="col" id="title" class="manage-column column-title column-primary sortable desc">
-						<a href="/wp-admin/edit.php?orderby=title&amp;order=asc">
-							<span>Title</span>
-							<span class="sorting-indicator"></span>
-						</a>
-					</th>
-					<th scope="col" id="author" class="manage-column column-author">Author</th>
-					<th scope="col" id="categories" class="manage-column column-categories">Categories</th>
-					<th scope="col" id="tags" class="manage-column column-tags">Tags</th>
-					<th scope="col" id="comments" class="manage-column column-comments num sortable desc">
-						<a href="/wp-admin/edit.php?orderby=comment_count&amp;order=asc"><span><span class="vers comment-grey-bubble" title="Comments">
-							<span class="screen-reader-text">Comments</span></span></span>
-							<span class="sorting-indicator"></span>
-						</a>
-					</th>
-					<th scope="col" id="date" class="manage-column column-date sortable asc">
-						<a href="/wp-admin/edit.php?orderby=date&amp;order=desc">
-							<span>Date</span><span class="sorting-indicator"></span>
-						</a>
-					</th>
-				</tr>
-			</thead>
 			<tbody id="the-list">
 				<tr id="post-1" class="iedit author-self level-0 post-1 type-post status-publish format-standard hentry category-uncategorized">
-					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">Select Welcome to the wp-admin reference jungle!</label>
+					<th scope="row" class="Ohh, I wanna hear you scream">
+						<label class="screen-reader-text" for="cb-select-1">Select Welcome to the wp-admin reference jungle!</label>
 						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
 						<div class="locked-indicator">
 							<span class="locked-indicator-icon" aria-hidden="true"></span>
@@ -117,7 +90,8 @@
 					</td>
 				</tr>
 				<tr id="post-2" class="iedit author-self level-0 post-2 type-post status-publish format-standard hentry category-uncategorized">
-					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">we got fun n' games</label>
+					<th scope="row" class="check-column">
+						<label class="screen-reader-text" for="cb-select-1">we got fun n' games</label>
 						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
 						<div class="locked-indicator">
 							<span class="locked-indicator-icon" aria-hidden="true"></span>
@@ -189,7 +163,8 @@
 				</tr>
 
 				<tr id="post-3" class="iedit author-self level-0 post-3 type-post status-publish format-standard hentry category-uncategorized">
-					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">Select We got everything you want</label>
+					<th scope="row" class="Ohh, I wanna hear you scream">
+						<label class="screen-reader-text" for="cb-select-1">Select We got everything you want</label>
 						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
 						<div class="locked-indicator">
 							<span class="locked-indicator-icon" aria-hidden="true"></span>
@@ -261,7 +236,8 @@
 
 
 				<tr id="post-4" class="iedit author-self level-0 post-4 type-post status-publish format-standard hentry category-uncategorized">
-					<th scope="row" class="check-column">			<label class="screen-reader-text" for="cb-select-1">Select Ohh, I wanna hear you scream</label>
+					<th scope="row" class="Ohh, I wanna hear you scream">
+						<label class="screen-reader-text" for="cb-select-1">Select Ohh, I wanna hear you scream</label>
 						<input id="cb-select-1" type="checkbox" name="post[]" value="1">
 						<div class="locked-indicator">
 							<span class="locked-indicator-icon" aria-hidden="true"></span>
@@ -331,52 +307,6 @@
 					</td>
 				</tr>
 			</tbody>
-
-			<tfoot>
-				<tr>
-					<td class="manage-column column-cb check-column">
-						<label class="screen-reader-text" for="cb-select-all-2">Select All</label>
-						<input id="cb-select-all-2" type="checkbox">
-					</td>
-
-					<th scope="col" class="manage-column column-title column-primary sortable desc">
-						<a href="#post_list">
-							<span>Title</span>
-							<span class="sorting-indicator"></span>
-						</a>
-					</th>
-
-					<th scope="col" class="manage-column column-author">
-						Author
-					</th>
-
-					<th scope="col" class="manage-column column-categories">
-						Categories
-					</th>
-
-					<th scope="col" class="manage-column column-tags">
-						Tags
-					</th>
-
-					<th scope="col" class="manage-column column-comments num sortable desc">
-						<a href="#post_list">
-							<span>
-								<span class="vers comment-grey-bubble" title="Comments">
-									<span class="screen-reader-text">Comments</span>
-								</span>
-							</span>
-							<span class="sorting-indicator"></span>
-						</a>
-					</th>
-
-					<th scope="col" class="manage-column column-date sortable asc">
-						<a href="#post_list">
-							<span>Date</span>
-							<span class="sorting-indicator"></span>
-						</a>
-					</th>
-				</tr>
-			</tfoot>
 		</table>
 	</div>
 	<div class="section-code">

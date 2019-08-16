@@ -5,7 +5,7 @@ Prism.plugins.NormalizeWhitespace.setDefaults({
 	'remove-indent': true,
 	'left-trim': true,
 	'right-trim': true,
-	'break-lines': 150,
+	'break-lines': 160,
 	'indent': 0,
 	'tabs-to-spaces': 2,
 });
@@ -42,4 +42,6 @@ jQuery(document).on('ready', function( jQuery ){
       return;
   };
   postboxes.add_postbox_toggles();
+
+  var $headerEnd = '';
 });

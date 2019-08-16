@@ -9,8 +9,6 @@
 <section class="section section-spinners" id="spinners">
 	<h1>Spinners</h1>
 	<div class="section-content">
-		<h3>You can use one of these:</h3>
-		<hr/>
 		<div class="grid-2">
 			<div class="grid-column">
 				<h3>@1x</h3>
