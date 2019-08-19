@@ -13,7 +13,7 @@
 	</header>
 	<div class="section-content">
 		<div class="grid-2">
-			<div class="grid-column">
+			<div class="grid-column notices-markup-column">
 				<div class="wp-header-end"></div>
 				<div class="block">
 					<div class="notice">
@@ -87,7 +87,7 @@
 				</div>
 			</div>
 
-			<div class="grid-column hide-lg-down">
+			<div class="grid-column notices-code-column hide-lg-down">
 
 				<div class="block">
 					<pre class="language-markup">

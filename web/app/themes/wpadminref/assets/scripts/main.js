@@ -46,14 +46,25 @@ jQuery(document).on('ready', function( jQuery ){
 
 });
 
-jQuery( '.section-notices .notice' ).each( function() {
-	jQuery( this ).append('<button class="show-notice-code button button-primary">Show code</button>');
+jQuery( document ).ready(function() {
+  if ( jQuery(window).width() < 1199 && jQuery(window).load() ) {
+    jQuery( '.section-notices .notice' ).each( function( index ) {
+      const markup = jQuery(this).prop('outerHTML');
+      const code = jQuery(' .notices-code-column .block:nth-child(' + (index + 1) + ') ').html();
+      console.log(index);
+      jQuery( code ).insertAfter( 
+        jQuery( jQuery(this) ) 
+      );
+    });
+  }
 });
 
-jQuery( '.show-notice-code' ).click(function() {
-	const parent = jQuery( this ).parents( '.notice' );
-	jQuery( this ).remove();
-	const parent_markup = parent.html();
-	parent.after( '<pre class="notice-code language-markup"><code class="language-markup"><script type="text/plain" class="language-markup">' + parent_markup +  '</script></code></pre>' );
-	Prism.highlightAll( jQuery( parent_markup )[0] );
+Prism.plugins.NormalizeWhitespace.setDefaults({
+ 'remove-trailing': true,
+ 'remove-indent': true,
+ 'left-trim': true,
+ 'right-trim': true,
+ 'break-lines': 160,
+ 'indent': 0,
+ 'tabs-to-spaces': 2,
 });

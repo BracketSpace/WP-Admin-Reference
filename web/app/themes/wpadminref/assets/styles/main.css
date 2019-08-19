@@ -40,6 +40,11 @@
 	top: 4px;
 }
 
+.wp-core-ui button.show-notice-code {
+	top: -0.75rem;
+	position: relative;
+}
+
 .wrap h1.big-title {
 	font-size: 5rem;
 	font-weight: 700;
@@ -304,13 +309,18 @@ div.code-toolbar > .toolbar span:hover {
 		display: none;
 	}
 
-	.show-notice-code {
-		display: inline-block;
+	.wrap .notice,
+	.wrap div.updated,
+	.wrap div.error,
+	.media-upload-form .notice,
+	.media-upload-form div.error {
+		margin: 1rem 0 1rem 0;
+		height: auto;
+		display: block;
 	}
 
-	.notice-code {
-		margin-top: -1rem;
-		margin-bottom: 2rem;
+	.notices-markup-column pre {
+		margin-bottom: 1.5rem;
 	}
 }
 
