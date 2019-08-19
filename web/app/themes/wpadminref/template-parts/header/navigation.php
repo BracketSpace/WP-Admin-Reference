@@ -16,7 +16,7 @@
 	$sections = apply_filters( 'wpadminref/sections', [] );
 	foreach ( $sections as $section_slug => $section ) {
 		?>
-			<li class="menu-top menu-top-first menu-icon-dashboard" id="menu-dashboard" data-menu="<?php echo esc_attr( $section_slug ); ?>">
+			<li class="menu-top menu-top-first menu-icon-<?php echo esc_attr( $section_slug ); ?>" id="menu-dashboard" data-menu="<?php echo esc_attr( $section_slug ); ?>">
 				<a href="#<?php echo esc_attr( $section_slug ); ?>" class="wp-first-item menu-top menu-icon-dashboard" aria-haspopup="false">
 					<div class="wp-menu-arrow">
 						<div></div>

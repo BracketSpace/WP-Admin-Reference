@@ -34,23 +34,23 @@
 							<span class="locked-text"></span>
 						</div>
 						<strong>
-							<a class="row-title" href="href="javascript:void()" aria-label="“Welcome to the wp-admin reference jungle!” (Edit)">
+							<a class="row-title" href="javascript:void()" aria-label="“Welcome to the wp-admin reference jungle!” (Edit)">
 								Welcome to the wp-admin reference jungle!
 							</a>
 						</strong>
 
 						<div class="row-actions">
 							<span class="edit">
-								<a href="href="javascript:void()" aria-label="Edit “Welcome to the wp-admin reference jungle!”">Edit</a> | 
+								<a href="javascript:void()" aria-label="Edit “Welcome to the wp-admin reference jungle!”">Edit</a> | 
 							</span>
 							<span class="inline hide-if-no-js">
 								<button type="button" class="button-link editinline" aria-label="Quick edit “Welcome to the wp-admin reference jungle!” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
 							</span>
 							<span class="trash">
-								<a href="href="javascript:void()" class="submitdelete" aria-label="Move “Welcome to the wp-admin reference jungle!” to the Trash">Trash</a> | 
+								<a href="javascript:void()" class="submitdelete" aria-label="Move “Welcome to the wp-admin reference jungle!” to the Trash">Trash</a> | 
 							</span>
 							<span class="view">
-								<a href="href="javascript:void()" rel="bookmark" aria-label="View “Welcome to the wp-admin reference jungle!”">View</a>
+								<a href="javascript:void()" rel="bookmark" aria-label="View “Welcome to the wp-admin reference jungle!”">View</a>
 							</span>
 						</div>
 
@@ -106,23 +106,23 @@
 							<span class="locked-text"></span>
 						</div>
 						<strong>
-							<a class="row-title" href="href="javascript:void()" aria-label="“we got fun n' games” (Edit)">
+							<a class="row-title" href="javascript:void()" aria-label="“we got fun n' games” (Edit)">
 								We got fun n' games
 							</a>
 						</strong>
 
 						<div class="row-actions">
 							<span class="edit">
-								<a href="href="javascript:void()" aria-label="Edit “Welcome to the wp-admin reference jungle!”">Edit</a> | 
+								<a href="javascript:void()" aria-label="Edit “Welcome to the wp-admin reference jungle!”">Edit</a> | 
 							</span>
 							<span class="inline hide-if-no-js">
 								<button type="button" class="button-link editinline" aria-label="Quick edit “Welcome to the wp-admin reference jungle!” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
 							</span>
 							<span class="trash">
-								<a href="href="javascript:void()" class="submitdelete" aria-label="Move “Welcome to the wp-admin reference jungle!” to the Trash">Trash</a> | 
+								<a href="javascript:void()" class="submitdelete" aria-label="Move “Welcome to the wp-admin reference jungle!” to the Trash">Trash</a> | 
 							</span>
 							<span class="view">
-								<a href="href="javascript:void()" rel="bookmark" aria-label="View “Welcome to the wp-admin reference jungle!”">View</a>
+								<a href="javascript:void()" rel="bookmark" aria-label="View “Welcome to the wp-admin reference jungle!”">View</a>
 							</span>
 						</div>
 
@@ -179,22 +179,22 @@
 							<span class="locked-text"></span>
 						</div>
 						<strong>
-							<a class="row-title" href="href="javascript:void()" aria-label="“We got everything you want” (Edit)">We got everything you want
+							<a class="row-title" href="javascript:void()" aria-label="“We got everything you want” (Edit)">We got everything you want
 							</a>
 						</strong>
 
 						<div class="row-actions">
 							<span class="edit">
-								<a href="href="javascript:void()" aria-label="Edit “We got everything you want”">Edit</a> | 
+								<a href="javascript:void()" aria-label="Edit “We got everything you want”">Edit</a> | 
 							</span>
 							<span class="inline hide-if-no-js">
 								<button type="button" class="button-link editinline" aria-label="Quick edit “We got everything you want” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
 							</span>
 							<span class="trash">
-								<a href="href="javascript:void()" class="submitdelete" aria-label="Move “We got everything you want” to the Trash">Trash</a> | 
+								<a href="javascript:void()" class="submitdelete" aria-label="Move “We got everything you want” to the Trash">Trash</a> | 
 							</span>
 							<span class="view">
-								<a href="href="javascript:void()" rel="bookmark" aria-label="View “We got everything you want”">View</a>
+								<a href="javascript:void()" rel="bookmark" aria-label="View “We got everything you want”">View</a>
 							</span>
 						</div>
 
@@ -252,22 +252,22 @@
 							<span class="locked-text"></span>
 						</div>
 						<strong>
-							<a class="row-title" href="href="javascript:void()" aria-label="“Ohh, I wanna hear you scream” (Edit)">Ohh, I wanna hear you scream
+							<a class="row-title" href="javascript:void()" aria-label="“Ohh, I wanna hear you scream” (Edit)">Ohh, I wanna hear you scream
 							</a>
 						</strong>
 
 						<div class="row-actions">
 							<span class="edit">
-								<a href="href="javascript:void()" aria-label="Edit “Ohh, I wanna hear you scream”">Edit</a> | 
+								<a href="javascript:void()" aria-label="Edit “Ohh, I wanna hear you scream”">Edit</a> | 
 							</span>
 							<span class="inline hide-if-no-js">
 								<button type="button" class="button-link editinline" aria-label="Quick edit “Ohh, I wanna hear you scream” inline" aria-expanded="false">Quick&nbsp;Edit</button> | 
 							</span>
 							<span class="trash">
-								<a href="href="javascript:void()" class="submitdelete" aria-label="Move “Ohh, I wanna hear you scream” to the Trash">Trash</a> | 
+								<a href="javascript:void()" class="submitdelete" aria-label="Move “Ohh, I wanna hear you scream” to the Trash">Trash</a> | 
 							</span>
 							<span class="view">
-								<a href="href="javascript:void()" rel="bookmark" aria-label="View “Ohh, I wanna hear you scream”">View</a>
+								<a href="javascript:void()" rel="bookmark" aria-label="View “Ohh, I wanna hear you scream”">View</a>
 							</span>
 						</div>
 

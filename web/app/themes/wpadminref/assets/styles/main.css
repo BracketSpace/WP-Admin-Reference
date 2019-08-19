@@ -40,21 +40,6 @@
 	top: 4px;
 }
 
-.show-notice-code {
-	display: none;
-	margin-left: 10px;
-	background: rgba(0, 0, 0, 0.1);
-	padding: 5px 8px;
-	border-radius: 10px;
-	font-size: 10px;
-	line-height: 1;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 0.5px;
-	color: #a2a2a2;
-	cursor: pointer;
-}
-
 .wrap h1.big-title {
 	font-size: 5rem;
 	font-weight: 700;
@@ -276,8 +261,15 @@ a.twitter-share-button:hover {
 	max-height: 400px;
 }
 
+.h-40 {
+	height: 40px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 11px;
+}
+
 div.code-toolbar > .toolbar {
-	top: 1rem;
+	top: 0.75rem;
 	right: 1rem;
 }
 
@@ -285,6 +277,13 @@ div.code-toolbar > .toolbar a,
 div.code-toolbar > .toolbar button,
 div.code-toolbar > .toolbar span {
 	font-size: 15px;
+	color: #fff;
+}
+
+div.code-toolbar > .toolbar a:hover,
+div.code-toolbar > .toolbar button:hover,
+div.code-toolbar > .toolbar span:hover {
+	color: #fff;
 }
 
 @media (max-width: 1199px) {

@@ -47,7 +47,7 @@ jQuery(document).on('ready', function( jQuery ){
 });
 
 jQuery( '.section-notices .notice' ).each( function() {
-	jQuery( this ).append('<span class="show-notice-code">Show code</span>');
+	jQuery( this ).append('<button class="show-notice-code button button-primary">Show code</button>');
 });
 
 jQuery( '.show-notice-code' ).click(function() {

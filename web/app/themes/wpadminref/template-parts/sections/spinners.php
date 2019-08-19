@@ -13,7 +13,7 @@
 			<div class="grid-column">
 				<h3>@1x</h3>
 				<div class="block">
-					<img src="<?php echo esc_url( get_admin_url() . '/images/spinner.gif' ); ?>" />
+					<div class="h-40"><img src="<?php echo esc_url( get_admin_url() . '/images/spinner.gif' ); ?>" /></div>
 					<pre class="line-numbers language-markup">
 						<code class="language-markup">
 							&lt;img src=&quot;&lt;?php echo esc_url( get_admin_url() . '/images/spinner.gif' ); ?&gt;&quot; /&gt;

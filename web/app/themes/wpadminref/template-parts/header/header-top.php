@@ -10,7 +10,7 @@
 <div id="wpadminbar" class="">
 	<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
 		<ul id="wp-admin-bar-root-default" class="ab-top-menu">
-			<li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="href="javascript:void()" aria-expanded="false"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li>
+			<li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="javascript:void()" aria-expanded="false"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li>
 			<li id="wp-admin-bar-wp-logo" class="menupop">
 				<a class="ab-item" aria-haspopup="true" href="<?php echo esc_url( home_url( '/' ) ); ?>" target="_blank">
 					<?php get_template_part( 'template-parts/header/logo' ); ?>
@@ -33,7 +33,7 @@
 		</ul>
 		<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
 			<li id="wp-admin-bar-my-account" class="menupop with-avatar">
-				<a class="ab-item" aria-haspopup="true" href="href="javascript:void()">Howdy,  <span class="display-name">developer</span><img alt="" src="https://secure.gravatar.com/avatar/743a121d82b6e389daaaf5aef6f11607?s=26&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/743a121d82b6e389daaaf5aef6f11607?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a>
+				<a class="ab-item" aria-haspopup="true" href="javascript:void()">Howdy,  <span class="display-name">developer</span><img alt="" src="https://secure.gravatar.com/avatar/743a121d82b6e389daaaf5aef6f11607?s=26&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/743a121d82b6e389daaaf5aef6f11607?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a>
 			</li>
 		</ul>
 	</div>
