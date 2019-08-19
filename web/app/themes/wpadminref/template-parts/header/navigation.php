@@ -24,7 +24,14 @@
 					<div class="wp-menu-image dashicons-before dashicons-<?php echo esc_attr( $section['icon'] ); ?>">
 						<br>
 					</div>
-					<div class="wp-menu-name"><?php echo esc_html( $section['title'] ); ?></div>
+					<div class="wp-menu-name">
+						<?php echo esc_html( $section['title'] ); ?>
+						<?php if ( $section['counter'] ) : ?>
+						<span class="update-plugins count-<?php echo esc_html( $section['counter'] ); ?>">
+							<span class="plugin-count"><?php echo esc_html( $section['counter'] ); ?></span>
+						</span>
+						<?php endif; ?>
+					</div>
 				</a>
 			</li>
 		<?php

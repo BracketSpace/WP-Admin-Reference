@@ -116,6 +116,7 @@ add_filter( 'wpadminref/sections', function( $sections ) {
 	$sections['counter'] = [
 		'icon'  => 'star-filled',
 		'title' => __( 'Counter', 'wpadminref' ),
+		'counter' => '2',
 	];
 
 	$sections['dashicons'] = [
