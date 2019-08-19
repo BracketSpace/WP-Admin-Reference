@@ -272,6 +272,21 @@ a.twitter-share-button:hover {
 	opacity: 0.9;
 }
 
+.h-400 pre {
+	max-height: 400px;
+}
+
+div.code-toolbar > .toolbar {
+	top: 1rem;
+	right: 1rem;
+}
+
+div.code-toolbar > .toolbar a,
+div.code-toolbar > .toolbar button,
+div.code-toolbar > .toolbar span {
+	font-size: 15px;
+}
+
 @media (max-width: 1199px) {
 
 	.wrap h1.big-title {
