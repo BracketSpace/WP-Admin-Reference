@@ -55,7 +55,7 @@
 					</div>
 				</div>
 				<div id="postbox-container-2" class="postbox-container">
-					<div id="column2-sortables" class="meta-box-sortables ui-sortable empty-container" data-emptystring="Drag boxes here"></div>
+					<div id="side-sortables" class="meta-box-sortables ui-sortable empty-container" data-emptystring="Drag boxes here"></div>
 				</div>
 			</div>
 			<div class="column-code">

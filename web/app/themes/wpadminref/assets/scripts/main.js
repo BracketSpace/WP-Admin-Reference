@@ -31,9 +31,19 @@ jQuery(document).on('ready', function( jQuery ){
   postboxes.save_order = function(){
       return;
   };
+  postboxes._mark_area = function(){
+      return;
+  };
+  postboxes._pb_edit = function(){
+      return;
+  };
+  postboxes._pb_change = function(){
+      return;
+  };
+  postboxes.handle_click();
   postboxes.add_postbox_toggles();
+  postboxes.init();
 
-  var $headerEnd = '';
 });
 
 jQuery( '.section-notices .notice' ).each( function() {
