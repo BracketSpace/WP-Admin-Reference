@@ -55,6 +55,10 @@
 	display: block;
 }
 
+.share-buttons-top {
+	float: right;
+}
+
 .section {
 	padding: 4rem 0 0 0;
 }
@@ -243,6 +247,10 @@ pre {
 	margin: 0 0.5rem;
 }
 
+#wpadminbar .share-buttons-top * {
+	line-height: 20px;
+}
+
 a.twitter-share-button {
 	display: block;
 	width: 48px;
@@ -260,6 +268,34 @@ a.twitter-share-button {
 
 a.twitter-share-button:hover {
 	opacity: 0.9;
+}
+
+#wpadminbar .share-buttons-top {
+	display: flex;
+	align-items: center;
+	height: 32px;
+}
+
+#wpadminbar .share-buttons-top a.twitter-share-button {
+	display: block;
+	width: 48px;
+	height: 20px;
+	margin-left: 5px;
+	padding: 0 6px;
+	color: #fff;
+	text-decoration: none;
+	background: #00acee;
+	font-size: 11px;
+	font-weight: 600;
+	border-radius: 0.25rem;
+	text-align: center;
+	line-height: 20px;
+}
+
+a.twitter-share-button.small {
+	height: 20px;
+	line-height: 1;
+	font-size: 11px;
 }
 
 .h-400 pre {
@@ -330,6 +366,10 @@ div.code-toolbar > .toolbar span:hover {
 		width: 25px;
 		height: 34px;
 		margin: 6px 10px;
+	}
+
+	#wpadminbar .share-buttons-top {
+		height: 40px;
 	}
 
 	.wrap h1.big-title {

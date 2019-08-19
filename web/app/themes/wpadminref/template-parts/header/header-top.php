@@ -36,5 +36,28 @@
 				<a class="ab-item" aria-haspopup="true" href="javascript:void()">Howdy,  <span class="display-name">developer</span><img alt="" src="https://secure.gravatar.com/avatar/743a121d82b6e389daaaf5aef6f11607?s=26&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/743a121d82b6e389daaaf5aef6f11607?s=52&amp;d=mm&amp;r=g 2x" class="avatar avatar-26 photo" height="26" width="26"></a>
 			</li>
 		</ul>
+		<ul class="share-buttons-top">
+			<div class="share-buttons">
+				<div class="share-button">
+					<div class="fb-share-button" data-href="https://wpadminref.bracketspace.com/" data-layout="button" data-size="small">
+						<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwpadminref.bracketspace.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+							Share
+						</a>
+					</div>
+				</div>
+				<div class="share-button">
+					<a class="twitter-share-button small"
+						href="https://twitter.com/intent/tweet?text=Look%20what%20i%20found!%20Complete%20wp-admin%20referece%3A%20https%3A%2F%2Fwpadminref.bracketspace.com%2F"
+						data-size="small"
+						data-text="Share on Twitter"
+						data-url="https://wpadminref.bracketspace.com/"
+						data-hashtags="wp-admin,WordPress"
+						data-via="twitterdev"
+						data-related="twitterapi,twitter">
+						Tweet
+					</a>
+				</div>
+			</div>
+		</ul>
 	</div>
 </div>
