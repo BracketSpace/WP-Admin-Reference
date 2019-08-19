@@ -1,15 +1,5 @@
 sectionMenu();
 
-Prism.plugins.NormalizeWhitespace.setDefaults({
-	'remove-trailing': true,
-	'remove-indent': true,
-	'left-trim': true,
-	'right-trim': true,
-	'break-lines': 160,
-	'indent': 0,
-	'tabs-to-spaces': 2,
-});
-
 jQuery( '.button-switch-view' ).click( function (e) {
 	e.preventDefault();
 	e.stopPropagation();
@@ -44,4 +34,16 @@ jQuery(document).on('ready', function( jQuery ){
   postboxes.add_postbox_toggles();
 
   var $headerEnd = '';
+});
+
+jQuery( '.section-notices .notice' ).each( function() {
+	jQuery( this ).append('<span class="show-notice-code">Show code</span>');
+});
+
+jQuery( '.show-notice-code' ).click(function() {
+	const parent = jQuery( this ).parents( '.notice' );
+	jQuery( this ).remove();
+	const parent_markup = parent.html();
+	parent.after( '<pre class="notice-code language-markup"><code class="language-markup"><script type="text/plain" class="language-markup">' + parent_markup +  '</script></code></pre>' );
+	Prism.highlightAll( jQuery( parent_markup )[0] );
 });

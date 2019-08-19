@@ -28,6 +28,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_style( 'prism-okaidia', get_theme_file_uri( '/node_modules/prismjs/themes/prism-okaidia.css' ), array(), '1.0.0', all );
 	wp_enqueue_style( 'prism-toolbar', get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.css' ), array(), '1.0.0', all );
 	wp_enqueue_style( 'prism-line-numbers', get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.css' ), array(), '1.0.0', all );
+	wp_enqueue_style( 'prism-unescaped-markup', get_theme_file_uri( '/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.css' ), array(), '1.0.0', all );
 	wp_enqueue_style( 'wpadminref-styles', get_theme_file_uri( '/assets/styles/main.css' ), array(), filemtime( get_theme_file_uri( '/assets/styles/main.css' ) ), all );
 } );
 
@@ -70,6 +71,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'prismjs-line-numbers', get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js' ) ), true );
 	wp_enqueue_script( 'prism-normalize-whitespace', get_theme_file_uri( '/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js' ) ), true );
 	wp_enqueue_script( 'prism-copy-to-clipboard', get_theme_file_uri( '/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js' ) ), true );
+	wp_enqueue_script( 'prism-unescaped-markup', get_theme_file_uri( '/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/unescaped-markup/prism-unescaped-markup.min.js' ) ), true );
 	wp_enqueue_script( 'sectionMenu', get_theme_file_uri( '/assets/scripts/functions/sectionMenu.js' ), array(), filemtime( get_theme_file_uri( '/assets/scripts/functions/sectionMenu.js' ) ), true );
 	wp_enqueue_script( 'wpadminref-script', get_theme_file_uri( '/assets/scripts/main.js' ), array(), filemtime( get_theme_file_uri( '/assets/scripts/main.js' ) ), true );
 } );
