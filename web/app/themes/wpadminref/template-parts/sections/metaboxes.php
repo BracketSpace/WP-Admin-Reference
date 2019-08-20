@@ -63,7 +63,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-code">
+	<div class="section-code h-400">
 		<pre class="section-markup-code line-numbers language-markup"><code class="line-numbers language-markup"></code></pre>
 	</div>
 </section>

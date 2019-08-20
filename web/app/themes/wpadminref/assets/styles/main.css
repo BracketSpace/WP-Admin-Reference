@@ -135,7 +135,6 @@
 pre {
 	max-width: 100%;
 	max-height: calc(100vh - 10rem);
-	overflow: auto;
 }
 
 code,
@@ -218,21 +217,25 @@ pre {
 }
 
 ::-webkit-scrollbar {
+	position: relative;
 	width: 6px;
 	height: 6px;
 	border-radius: 0.25rem;
 }
 
 ::-webkit-scrollbar-track {
-	background: #f1f1f1;
+	background: transparent;
+	border-radius: 0.25rem;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #999;
+	border-radius: 0.25rem;
 }
 
 ::-webkit-scrollbar-thumb:hover {
 	background: #777;
+	border-radius: 0.25rem;
 }
 
 .share-buttons {
@@ -311,7 +314,7 @@ a.twitter-share-button.small {
 
 div.code-toolbar > .toolbar {
 	top: 0.75rem;
-	right: 1rem;
+	right: 1.5rem;
 }
 
 div.code-toolbar > .toolbar a,
