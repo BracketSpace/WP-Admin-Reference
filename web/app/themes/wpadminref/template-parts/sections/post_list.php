@@ -261,11 +261,11 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
+								<pre class="language-markup"><code>
 									if ( ! class_exists( 'WP_List_Table' ) ) {
 										require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
 									}
-								</script>
+								</code></pre>
 							</div>
 						</div>
 					</div>
@@ -279,8 +279,8 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<pre class="language-php">
-									<code class="language-php"> 
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
 										class Items extends WP_List_Table {
 
 											public function __construct() {
@@ -306,36 +306,38 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Retrieve items data from the database
-									 *
-									 * @param int $per_page
-									 * @param int $page_number
-									 *
-									 * @return mixed
-									 */
-									public static function get_items( $per_page = 5, $page_number = 1 ) {
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Retrieve items data from the database
+										 *
+										 * @param int $per_page
+										 * @param int $page_number
+										 *
+										 * @return mixed
+										 */
+										public static function get_items( $per_page = 5, $page_number = 1 ) {
 
-										global $wpdb;
+											global $wpdb;
 
-										$sql = "SELECT * FROM {$wpdb->prefix}items";
+											$sql = "SELECT * FROM {$wpdb->prefix}items";
 
-										if ( ! empty( $_REQUEST['orderby'] ) ) {
-										$sql .= ' ORDER BY ' . esc_sql( $_REQUEST['orderby'] );
-										$sql .= ! empty( $_REQUEST['order'] ) ? ' ' . esc_sql( $_REQUEST['order'] ) : ' ASC';
+											if ( ! empty( $_REQUEST['orderby'] ) ) {
+											$sql .= ' ORDER BY ' . esc_sql( $_REQUEST['orderby'] );
+											$sql .= ! empty( $_REQUEST['order'] ) ? ' ' . esc_sql( $_REQUEST['order'] ) : ' ASC';
+											}
+
+											$sql .= " LIMIT $per_page";
+
+											$sql .= ' OFFSET ' . ( $page_number - 1 ) * $per_page;
+
+
+											$result = $wpdb->get_results( $sql, 'ARRAY_A' );
+
+											return $result;
 										}
-
-										$sql .= " LIMIT $per_page";
-
-										$sql .= ' OFFSET ' . ( $page_number - 1 ) * $per_page;
-
-
-										$result = $wpdb->get_results( $sql, 'ARRAY_A' );
-
-										return $result;
-									}
-								</script>
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>

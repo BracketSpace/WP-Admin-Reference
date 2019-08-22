@@ -22,7 +22,7 @@
 }
 
 .wrap {
-	margin: 0 20px 0 2px;
+	margin: 0 15px;
 }
 
 .wrap .notice,
@@ -82,10 +82,6 @@
 	margin-left: 1rem;
 }
 
-.section-content {
-	padding: 0 1rem 0 0;
-}
-
 .section-content::after {
 	content: "";
 	display: table;
@@ -143,6 +139,11 @@ pre {
 	hyphens: none;
 }
 
+kbd,
+code {
+	padding: 0;
+}
+
 .dashicons-box {
 	max-width: 45rem;
 	margin: 3rem auto;
@@ -162,7 +163,7 @@ pre {
 
 .grid-2 {
 	display: grid;
-	grid-template-columns: 42% 58%;
+	grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
 	grid-template-rows: 1fr;
 	grid-gap: 1rem;
 }
@@ -173,6 +174,11 @@ pre {
 
 .switch-button.hidden {
 	display: none;
+}
+
+#dashboard-widgets-wrap {
+	margin: 0;
+	overflow: auto;
 }
 
 #dashboard-widgets .postbox-container {
