@@ -67,6 +67,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'menuspy', get_theme_file_uri( '/node_modules/menuspy/dist/menuspy.min.js' ), array( 'jquery' ), '1.3.0', true );
 	wp_enqueue_script( 'clipboard', get_theme_file_uri( '/node_modules/clipboard/dist/clipboard.min.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/clipboard/dist/clipboard.min.js' ) ), true );
 	wp_enqueue_script( 'prismjs', get_theme_file_uri( '/node_modules/prismjs/prism.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/prism.js' ) ), true );
+	wp_enqueue_script( 'prismjs-components', get_theme_file_uri( '/node_modules/prismjs/components.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/components.js' ) ), true );
 	wp_enqueue_script( 'prism-toolbar', get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js' ) ), true );
 	wp_enqueue_script( 'prismjs-line-numbers', get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/line-numbers/prism-line-numbers.js' ) ), true );
 	wp_enqueue_script( 'prism-normalize-whitespace', get_theme_file_uri( '/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/normalize-whitespace/prism-normalize-whitespace.js' ) ), true );

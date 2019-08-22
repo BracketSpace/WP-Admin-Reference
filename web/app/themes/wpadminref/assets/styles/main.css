@@ -134,7 +134,7 @@
 
 pre {
 	max-width: 100%;
-	max-height: calc(100vh - 10rem);
+	max-height: 1000px;
 }
 
 code,
@@ -218,9 +218,10 @@ pre {
 
 ::-webkit-scrollbar {
 	position: relative;
-	width: 6px;
+	width: 8px;
 	height: 6px;
 	border-radius: 0.25rem;
+	background: transparent;
 }
 
 ::-webkit-scrollbar-track {

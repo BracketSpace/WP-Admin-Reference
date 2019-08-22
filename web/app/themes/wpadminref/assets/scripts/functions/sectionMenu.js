@@ -11,7 +11,7 @@ function sectionMenu() {
 			e.preventDefault();
 			var hash = this.hash;
 			jQuery('html, body').animate( {
-				scrollTop: jQuery( hash ).offset().top -15
+				scrollTop: jQuery( hash ).offset().top
 			}, 300, function(){
 				window.location.hash = hash;
 			} );
