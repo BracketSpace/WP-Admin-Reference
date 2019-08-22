@@ -7,25 +7,9 @@ jQuery( '.section-with-columns' ).each( function( index ) {
 });
 
 jQuery(document).on('ready', function( jQuery ){
-	postboxes.save_state = function(){
-			return;
-	};
-	postboxes.save_order = function(){
-			return;
-	};
-	postboxes._mark_area = function(){
-			return;
-	};
-	postboxes._pb_edit = function(){
-			return;
-	};
-	postboxes._pb_change = function(){
-			return;
-	};
-	postboxes.handle_click();
-	postboxes.add_postbox_toggles();
 	postboxes.init();
-
+	postboxes.add_postbox_toggles();
+	postboxes._mark_area()
 });
 
 jQuery( document ).ready(function() {
