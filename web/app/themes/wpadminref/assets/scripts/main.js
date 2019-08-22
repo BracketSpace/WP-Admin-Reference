@@ -1,6 +1,7 @@
-sectionMenu();
+
 
 jQuery( '.button-switch-view' ).click( function (e) {
+
 	e.preventDefault();
 	e.stopPropagation();
 	e.stopImmediatePropagation();
@@ -67,4 +68,8 @@ Prism.plugins.NormalizeWhitespace.setDefaults({
  'break-lines': 160,
  'indent': 0,
  'tabs-to-spaces': 2,
+});
+
+jQuery( document ).ready(function() {
+  sectionMenu();
 });

@@ -64,7 +64,7 @@ add_action( 'wp_enqueue_scripts', function() {
 	wp_enqueue_script( 'dashboard' );
 	wp_enqueue_script( 'thickbox' );
 	wp_enqueue_script( 'shortc' );
-	wp_enqueue_script( 'waypoints', get_theme_file_uri( '/node_modules/waypoints/lib/jquery.waypoints.min.js' ), array( 'jquery' ), '4.0.1', true );
+	wp_enqueue_script( 'menuspy', get_theme_file_uri( '/node_modules/menuspy/dist/menuspy.min.js' ), array( 'jquery' ), '1.3.0', true );
 	wp_enqueue_script( 'clipboard', get_theme_file_uri( '/node_modules/clipboard/dist/clipboard.min.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/clipboard/dist/clipboard.min.js' ) ), true );
 	wp_enqueue_script( 'prismjs', get_theme_file_uri( '/node_modules/prismjs/prism.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/prism.js' ) ), true );
 	wp_enqueue_script( 'prism-toolbar', get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js' ), array(), filemtime( get_theme_file_uri( '/node_modules/prismjs/plugins/toolbar/prism-toolbar.min.js' ) ), true );
@@ -187,11 +187,3 @@ function custom_post_type() {
 
 }
 add_action( 'init', 'custom_post_type', 0 );
-
-$number    = 2;
-$post_type = get_post_type_object( 'counter' );
-
-if ( $number > 0 ) {
-	$post_type->labels->menu_name .= ' <span class="update-plugins"><span class="update-count">' . $number . '</span></span>';
-	$post_type->labels->all_items .= ' <span class="update-plugins"><span class="update-count">' . $number . '</span></span>';
-}
