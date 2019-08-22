@@ -378,8 +378,25 @@ div.code-toolbar > .toolbar span:hover {
 		margin: 6px 10px;
 	}
 
+	#wpadminbar .logo-wrapper {
+		width: 46px;
+		height: 46px;
+	}
+
+	#wpadminbar .logo-wrapper svg {
+		width: 28px;
+		height: 28px;
+		margin: 9px;
+	}
+
 	#wpadminbar .share-buttons-top {
-		height: 40px;
+		height: 46px;
+	}
+
+	#wpadminbar .share-buttons-top a.twitter-share-button {
+		font-size: 14px;
+		height: 28px;
+		line-height: 26px;
 	}
 
 	.wrap h1.big-title {

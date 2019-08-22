@@ -7,7 +7,7 @@
 
 ?>
 
-<div id="wpadminbar" class="">
+<div id="wpadminbar">
 	<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
 		<ul id="wp-admin-bar-root-default" class="ab-top-menu">
 			<li id="wp-admin-bar-menu-toggle"><a class="ab-item" href="javascript:void(0)" aria-expanded="false"><span class="ab-icon"></span><span class="screen-reader-text">Menu</span></a></li>
@@ -28,7 +28,7 @@
 				</div>
 			</li>
 			<li id="wp-admin-bar-site-name" class="menupop">
-				<a class="ab-item" aria-haspopup="true" href="https://wpadmin.bracketspace.com/">WP-Admin reference</a>
+				<a class="ab-item" aria-haspopup="true" href="#wpwrap">WP-Admin reference</a>
 			</li>
 		</ul>
 		<ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<div class="share-button">
-					<a class="twitter-share-button small"
+					<a class="twitter-share-button large"
 						href="https://twitter.com/intent/tweet?text=Look%20what%20i%20found!%20Complete%20wp-admin%20referece%3A%20https%3A%2F%2Fwpadminref.bracketspace.com%2F"
 						data-size="small"
 						data-text="Share on Twitter"

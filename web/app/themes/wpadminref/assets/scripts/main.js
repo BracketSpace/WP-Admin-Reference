@@ -12,7 +12,7 @@ jQuery(document).on('ready', function( jQuery ){
 	postboxes._mark_area()
 });
 
-jQuery( document ).ready(function() {
+jQuery( document ).ready( function() {
 	if ( jQuery(window).width() < 1199 && jQuery(window).load() ) {
 		jQuery( '.section-notices .notice' ).each( function( index ) {
 			const markup = jQuery(this).prop('outerHTML');
@@ -22,6 +22,10 @@ jQuery( document ).ready(function() {
 				jQuery( jQuery(this) ) 
 			);
 		});
+	}
+
+	if ( jQuery(window).width() < 783 && jQuery(window).load() ) {
+		jQuery( '.share-buttons-top .fb-share-button' ).attr( 'data-size', 'large' );
 	}
 });
 
