@@ -49,7 +49,7 @@
 					</pre>
 				</div>
 				<div class="block">
-					<img src="<?php echo esc_url( includes_url() . '/js/thickbox/loadingAnimation.gif' ); ?>" />
+					<img src="<?php echo esc_url( includes_url() . '/js/thickbox/loadingAnimation.gif' ); ?>" class="img-fluid" />
 					<pre class="line-numbers language-markup">
 						<code class="language-markup">
 							&lt;img src=&quot;&lt;?php echo esc_url( includes_url() . '/js/thickbox/loadingAnimation.gif' ); ?&gt;&quot; /&gt;

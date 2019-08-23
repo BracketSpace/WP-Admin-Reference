@@ -123,6 +123,11 @@
 	text-align: center;
 }
 
+code[class*="language-"],
+pre[class*="language-"] {
+	tab-size: 1;
+}
+
 .section-notices :not(pre) > code[class*="language-"],
 .section-notices pre[class*="language-"] {
 	overflow-x: hidden;
@@ -319,6 +324,11 @@ a.twitter-share-button.small {
 	margin-bottom: 11px;
 }
 
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
 div.code-toolbar > .toolbar {
 	top: 0.75rem;
 	right: 1.5rem;
@@ -368,6 +378,10 @@ div.code-toolbar > .toolbar span:hover {
 	.notices-markup-column pre {
 		margin-bottom: 1.5rem;
 	}
+
+	.section {
+		padding-top: 2rem;
+	}
 }
 
 @media (max-width: 782px) {
@@ -402,5 +416,25 @@ div.code-toolbar > .toolbar span:hover {
 	.wrap h1.big-title {
 		margin-bottom: 1rem;
 		font-size: 3rem;
+	}
+
+	.h-100 {
+		height: auto;
+	}
+}
+
+@media (max-width: 478px) {
+
+	.wrap {
+		padding: 0;
+	}
+
+	#dashboard-widgets .meta-box-sortables {
+		min-height: initial;
+		margin: 0;
+	}
+
+	.wp-core-ui .button-group > .button {
+		display: block;
 	}
 }
