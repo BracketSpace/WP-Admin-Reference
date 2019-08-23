@@ -261,11 +261,13 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<pre class="language-markup"><code>
-									if ( ! class_exists( 'WP_List_Table' ) ) {
-										require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
-									}
-								</code></pre>
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										if ( ! class_exists( 'WP_List_Table' ) ) {
+											require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -351,22 +353,24 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Delete a item record.
-									 *
-									 * @param int $id item ID
-									 */
-									public static function delete_item( $id ) {
-										global $wpdb;
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Delete a item record.
+										 *
+										 * @param int $id item ID
+										 */
+										public static function delete_item( $id ) {
+											global $wpdb;
 
-										$wpdb->delete(
-										"{$wpdb->prefix}items",
-										[ 'ID' => $id ],
-										[ '%d' ]
-										);
-									}
-								</script>
+											$wpdb->delete(
+											"{$wpdb->prefix}items",
+											[ 'ID' => $id ],
+											[ '%d' ]
+											);
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -380,20 +384,22 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Returns the count of records in the database.
-									 *
-									 * @return null|string
-									 */
-									public static function record_count() {
-										global $wpdb;
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Returns the count of records in the database.
+										 *
+										 * @return null|string
+										 */
+										public static function record_count() {
+											global $wpdb;
 
-										$sql = "SELECT COUNT(*) FROM {$wpdb->prefix}items";
+											$sql = "SELECT COUNT(*) FROM {$wpdb->prefix}items";
 
-										return $wpdb->get_var( $sql );
-									}
-								</script>
+											return $wpdb->get_var( $sql );
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -407,12 +413,14 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/** Text displayed when no item data is available */
-									public function no_items() {
-										_e( 'No items avaliable.', 'bs' );
-									}
-								</script>
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/** Text displayed when no item data is available */
+										public function no_items() {
+											_e( 'No items avaliable.', 'bs' );
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -426,28 +434,30 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Method for name column
-									 *
-									 * @param array $item an array of DB data
-									 *
-									 * @return string
-									 */
-									function column_name( $item ) {
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Method for name column
+										 *
+										 * @param array $item an array of DB data
+										 *
+										 * @return string
+										 */
+										function column_name( $item ) {
 
-										// create a nonce
-										$delete_nonce = wp_create_nonce( 'bs_delete_item' );
+											// create a nonce
+											$delete_nonce = wp_create_nonce( 'bs_delete_item' );
 
-										$title = '<strong>' . $item['name'] . '</strong>';
+											$title = '<strong>' . $item['name'] . '</strong>';
 
-										$actions = [
-										'delete' => sprintf( '<a href="?page=%s&action=%s&item=%s&_wpnonce=%s">Delete</a>', esc_attr( $_REQUEST['page'] ), 'delete', absint( $item['ID'] ), $delete_nonce )
-										];
+											$actions = [
+											'delete' => sprintf( '<a href="?page=%s&action=%s&item=%s&_wpnonce=%s">Delete</a>', esc_attr( $_REQUEST['page'] ), 'delete', absint( $item['ID'] ), $delete_nonce )
+											];
 
-										return $title . $this->row_actions( $actions );
-									}
-								</script>
+											return $title . $this->row_actions( $actions );
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -461,25 +471,27 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Render a column when no column specific method exists.
-									 *
-									 * @param array $item
-									 * @param string $column_name
-									 *
-									 * @return mixed
-									 */
-									public function column_default( $item, $column_name ) {
-										switch ( $column_name ) {
-										case 'name':
-										case 'manufacturer':
-											return $item[ $column_name ];
-										default:
-											return print_r( $item, true ); //Show the whole array for troubleshooting purposes
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Render a column when no column specific method exists.
+										 *
+										 * @param array $item
+										 * @param string $column_name
+										 *
+										 * @return mixed
+										 */
+										public function column_default( $item, $column_name ) {
+											switch ( $column_name ) {
+											case 'name':
+											case 'manufacturer':
+												return $item[ $column_name ];
+											default:
+												return print_r( $item, true ); //Show the whole array for troubleshooting purposes
+											}
 										}
-									}
-								</script>
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -493,20 +505,22 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Render the bulk edit checkbox
-									 *
-									 * @param array $item
-									 *
-									 * @return string
-									 */
-									function column_cb( $item ) {
-										return sprintf(
-										'<input type="checkbox" name="bulk-delete[]" value="%s" />', $item['ID']
-										);
-									}
-								</script>
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Render the bulk edit checkbox
+										 *
+										 * @param array $item
+										 *
+										 * @return string
+										 */
+										function column_cb( $item ) {
+											return sprintf(
+											'<input type="checkbox" name="bulk-delete[]" value="%s" />', $item['ID']
+											);
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -520,23 +534,25 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 *  Associative array of columns
-									 *
-									 * @return array
-									 */
-									function get_columns() {
-										$columns = [
-										'cb'      => '<input type="checkbox" />',
-										'name'    => __( 'Name', 'bs' ),
-										'manufacturer' => __( 'Manufacturer', 'bs' ),
-										'price'    => __( 'Price', 'bs' )
-										];
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 *  Associative array of columns
+										 *
+										 * @return array
+										 */
+										function get_columns() {
+											$columns = [
+											'cb'      => '<input type="checkbox" />',
+											'name'    => __( 'Name', 'bs' ),
+											'manufacturer' => __( 'Manufacturer', 'bs' ),
+											'price'    => __( 'Price', 'bs' )
+											];
 
-										return $columns;
-									}
-								</script>
+											return $columns;
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -550,22 +566,24 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Columns to make sortable.
-									 *
-									 * @return array
-									 */
-									public function get_sortable_columns() {
-										$sortable_columns = array(
-										'name' => array( 'name', true ),
-										'manufacturer' => array( 'manufacturer', false )
-										'price' => array( 'price', false )
-										);
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Columns to make sortable.
+										 *
+										 * @return array
+										 */
+										public function get_sortable_columns() {
+											$sortable_columns = array(
+											'name' => array( 'name', true ),
+											'manufacturer' => array( 'manufacturer', false )
+											'price' => array( 'price', false )
+											);
 
-										return $sortable_columns;
-									}
-								</script>
+											return $sortable_columns;
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -579,20 +597,22 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									/**
-									 * Returns an associative array containing the bulk action
-									 *
-									 * @return array
-									 */
-									public function get_bulk_actions() {
-										$actions = [
-										'bulk-delete' => 'Delete'
-										];
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Returns an associative array containing the bulk action
+										 *
+										 * @return array
+										 */
+										public function get_bulk_actions() {
+											$actions = [
+											'bulk-delete' => 'Delete'
+											];
 
-										return $actions;
-									}
-								</script>
+											return $actions;
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -606,30 +626,32 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-								/**
-								 * Handles data query and filter, sorting, and pagination.
-								 */
-								public function prepare_items() {
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										/**
+										 * Handles data query and filter, sorting, and pagination.
+										 */
+										public function prepare_items() {
 
-									$this->_column_headers = $this->get_column_info();
+											$this->_column_headers = $this->get_column_info();
 
-									/** Process bulk action */
-									$this->process_bulk_action();
+											/** Process bulk action */
+											$this->process_bulk_action();
 
-									$per_page     = $this->get_items_per_page( 'items_per_page', 5 );
-									$current_page = $this->get_pagenum();
-									$total_items  = self::record_count();
+											$per_page     = $this->get_items_per_page( 'items_per_page', 5 );
+											$current_page = $this->get_pagenum();
+											$total_items  = self::record_count();
 
-									$this->set_pagination_args( [
-									'total_items' => $total_items,
-									'per_page'    => $per_page
-									] );
+											$this->set_pagination_args( [
+											'total_items' => $total_items,
+											'per_page'    => $per_page
+											] );
 
 
-									$this->items = self::get_items( $per_page, $current_page );
-								}
-								</script>
+											$this->items = self::get_items( $per_page, $current_page );
+										}
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>
@@ -643,43 +665,45 @@
 						</h2>
 						<div class="inside">
 							<div class="main">
-								<script type="text/plain" class="language-php">
-									public function process_bulk_action() {
+								<pre class="line-numbers language-php">
+									<code class="line-numbers language-php">
+										public function process_bulk_action() {
 
-										// Detect when a bulk action is being triggered...
-										if ( 'delete' === $this->current_action() ) {
+											// Detect when a bulk action is being triggered...
+											if ( 'delete' === $this->current_action() ) {
 
-										// In our file that handles the request, verify the nonce.
-										$nonce = esc_attr( $_REQUEST['_wpnonce'] );
+											// In our file that handles the request, verify the nonce.
+											$nonce = esc_attr( $_REQUEST['_wpnonce'] );
 
-										if ( ! wp_verify_nonce( $nonce, 'bs_delete_item' ) ) {
-											die( 'Go get a life script kiddies' );
-										}
-										else {
-											self::delete_item( absint( $_GET['item'] ) );
+											if ( ! wp_verify_nonce( $nonce, 'bs_delete_item' ) ) {
+												die( 'Go get a life script kiddies' );
+											}
+											else {
+												self::delete_item( absint( $_GET['item'] ) );
+
+												wp_redirect( esc_url( add_query_arg() ) );
+												exit;
+											}
+
+											}
+
+											// If the delete bulk action is triggered
+											if ( ( isset( $_POST['action'] ) && $_POST['action'] == 'bulk-delete' ) || ( isset( $_POST['action2'] ) && $_POST['action2'] == 'bulk-delete' ) ) {
+
+											$delete_ids = esc_sql( $_POST['bulk-delete'] );
+
+											// loop over the array of record IDs and delete them
+											foreach ( $delete_ids as $id ) {
+												self::delete_item( $id );
+
+											}
 
 											wp_redirect( esc_url( add_query_arg() ) );
 											exit;
+											}
 										}
-
-										}
-
-										// If the delete bulk action is triggered
-										if ( ( isset( $_POST['action'] ) && $_POST['action'] == 'bulk-delete' ) || ( isset( $_POST['action2'] ) && $_POST['action2'] == 'bulk-delete' ) ) {
-
-										$delete_ids = esc_sql( $_POST['bulk-delete'] );
-
-										// loop over the array of record IDs and delete them
-										foreach ( $delete_ids as $id ) {
-											self::delete_item( $id );
-
-										}
-
-										wp_redirect( esc_url( add_query_arg() ) );
-										exit;
-										}
-									}
-								</script>
+									</code>
+								</pre>
 							</div>
 						</div>
 					</div>

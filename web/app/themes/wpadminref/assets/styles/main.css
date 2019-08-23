@@ -225,7 +225,7 @@ code {
 ::-webkit-scrollbar {
 	position: relative;
 	width: 8px;
-	height: 6px;
+	height: 8px;
 	border-radius: 0.25rem;
 	background: transparent;
 }
