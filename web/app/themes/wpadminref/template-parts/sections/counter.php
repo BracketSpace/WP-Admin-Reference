@@ -32,7 +32,7 @@
 
 		<div class="block">
 			<p>Counter for CPT</p>
-			<script type="text/plain" class="language-markup">
+			<script type="text/plain" class="language-php">
 				$number    = 2; // Query here.
 				$post_type = get_post_type_object( 'cpt-slug' );
 
