@@ -33,9 +33,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Default dismissible notice</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice inline is-dismissible">
 					<p>Default dismissible notice</p>
@@ -52,7 +50,7 @@
 
 		<div class="notices-row">
 			<div>
-				<p>Info notice</p>
+				<p>Info</p>
 			</div>
 			<div>
 				<div class="notice notice-info inline">
@@ -69,9 +67,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Info notice dismissible</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-info inline is-dismissible">
 					<p>Info notice dismissible</p>
@@ -87,9 +83,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Info notice alt</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-info inline notice-alt">
 					<p>Info notice alt</p>
@@ -106,7 +100,7 @@
 
 		<div class="notices-row">
 			<div>
-				<p>Success notice</p>
+				<p>Success</p>
 			</div>
 			<div>
 				<div class="notice notice-success inline">
@@ -123,9 +117,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Success notice dismissible</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-success inline is-dismissible">
 					<p>Success notice dismissible</p>
@@ -141,9 +133,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Success notice alt</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-success notice-alt inline">
 					<p>Success notice alt</p>
@@ -160,7 +150,7 @@
 
 		<div class="notices-row">
 			<div>
-				<p>Warning notice</p>
+				<p>Warning</p>
 			</div>
 			<div>
 				<div class="notice notice-warning inline">
@@ -177,9 +167,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Warning notice dismissible</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-warning inline is-dismissible">
 					<p>Warning notice dismissible</p>
@@ -195,9 +183,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Warning notice alt</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-warning notice-alt inline">
 					<p>Warning notice alt</p>
@@ -214,7 +200,7 @@
 
 		<div class="notices-row">
 			<div>
-				<p>Error notice</p>
+				<p>Error</p>
 			</div>
 			<div>
 				<div class="notice notice-error inline">
@@ -231,9 +217,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Error notice dismissible</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-error inline is-dismissible">
 					<p>Error notice dismissible</p>
@@ -249,9 +233,7 @@
 		</div>
 
 		<div class="notices-row">
-			<div>
-				<p>Error notice alt</p>
-			</div>
+			<div></div>
 			<div>
 				<div class="notice notice-error notice-alt inline">
 					<p>Error notice alt</p>
