@@ -14,7 +14,7 @@
 	</header>
 	<div class="section-content">
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Default notice</p>
 			</div>
@@ -32,7 +32,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Default dismissible notice</p>
 			</div>
@@ -50,7 +50,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Info notice</p>
 			</div>
@@ -68,7 +68,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Info notice dismissible</p>
 			</div>
@@ -86,7 +86,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Info notice alt</p>
 			</div>
@@ -104,7 +104,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Success notice</p>
 			</div>
@@ -122,7 +122,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Success notice dismissible</p>
 			</div>
@@ -140,7 +140,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Success notice alt</p>
 			</div>
@@ -158,7 +158,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Warning notice</p>
 			</div>
@@ -176,7 +176,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Warning notice dismissible</p>
 			</div>
@@ -194,7 +194,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Warning notice alt</p>
 			</div>
@@ -212,7 +212,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Error notice</p>
 			</div>
@@ -230,7 +230,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Error notice dismissible</p>
 			</div>
@@ -248,7 +248,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="notices-row">
 			<div>
 				<p>Error notice alt</p>
 			</div>

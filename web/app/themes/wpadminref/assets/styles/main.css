@@ -24,7 +24,7 @@
 #wpcontent,
 #wpfooter {
 	margin-left: 160px;
-	margin-right: 20px;
+	margin-right: 0;
 }
 
 #wpbody-content .metabox-holder {
@@ -49,11 +49,10 @@
 }
 
 .wrap h1.big-title {
-	opacity: 0.5;
 	font-size: 8.125rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #707070;
+	color: #b1b1b1;
 }
 
 .admin-bar .menupop:hover .ab-sub-wrapper {
@@ -65,7 +64,7 @@
 }
 
 .section {
-	padding: 4rem 0 0 0;
+	padding: 4rem 20px 0 0;
 }
 
 .section:first-of-type {
@@ -78,13 +77,27 @@
 
 .buttons-row {
 	display: grid;
-	grid-template-columns: calc(13% - 10px) calc(20% - 10px) calc(66.66% - 10px);
+	grid-template-columns: calc(13% - 10px) calc(20.33% - 10px) calc(66.66% - 10px);
 	grid-template-rows: 1fr;
 	grid-gap: 20px;
 	margin-bottom: 40px;
 }
 
 .buttons-row > div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.notices-row {
+	display: grid;
+	grid-template-columns: calc(13% - 10px) calc(37% - 10px) calc(50% - 10px);
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
+	margin-bottom: 40px;
+}
+
+.notices-row > div {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -117,7 +130,7 @@
 }
 
 .text-light {
-	color: #b9b9b9;
+	color: #b1b1b1;
 }
 
 .section-about {
@@ -133,7 +146,6 @@
 	margin-top: 30px;
 	margin-bottom: 58px;
 	font-size: 23px;
-	font-weight: 300;
 	line-height: 31px;
 }
 
@@ -202,6 +214,10 @@ code {
 	font-size: 1rem;
 }
 
+.wp-list-table {
+	margin-bottom: 60px;
+}
+
 .block {
 	margin-bottom: 2rem;
 }
@@ -256,7 +272,7 @@ code {
 
 .logo-link {
 	display: block;
-	max-width: 25rem;
+	max-width: 215px;
 	margin-bottom: 100px;
 	padding: 1rem 0;
 	opacity: 0.5;
@@ -463,18 +479,15 @@ a.twitter-share-button.small {
 		padding-right: 15px;
 	}
 
-	.buttons-row {
+	.buttons-row,
+	.notices-row {
 		display: block;
 	}
 
-	.buttons-row > div {
+	.buttons-row > div,
+	.notices-row > div {
 		display: block;
 		margin-bottom: 15px;
-	}
-
-	.wp-core-ui .notice,
-	.wp-core-ui .notice.is-dismissible {
-		max-width: 500px;
 	}
 }
 
