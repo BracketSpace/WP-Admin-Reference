@@ -8,10 +8,8 @@
 ?>
 <section class="section section-with-columns section-tables" id="tables">
 	<header class="section-header">
-		<h1>Tables</h1>
-		<div class="switch-button hidden">
-			<button data-action="#tables" class="button button-primary button-switch-view">Show code</button>
-		</div>
+		<h2>Tables</h2>
+		<hr/>
 	</header>
 	<div class="section-content">
 		<div class="grid-2">
@@ -74,7 +72,7 @@
 					</tbody>
 				</table>
 			</div>
-			<div class="column-code h-400">
+			<div class="column-code h-500">
 				<pre class="line-numbers language-markup"><code class="line-numbers language-markup"></code></pre>
 			</div>
 		</div>

@@ -21,8 +21,22 @@
 	position: fixed;
 }
 
+#wpcontent,
+#wpfooter {
+	margin-left: 160px;
+	margin-right: 20px;
+}
+
+#wpbody-content .metabox-holder {
+	padding-top: 0;
+}
+
+#dashboard-widgets .meta-box-sortables {
+	margin: 0;
+}
+
 .wrap {
-	margin: 0 15px;
+	margin: 0;
 }
 
 .wrap .notice,
@@ -30,19 +44,8 @@
 .wrap div.error,
 .media-upload-form .notice,
 .media-upload-form div.error {
-	margin: 0.5rem 0 2rem 0;
-	height: 43px;
-	display: flex;
-	align-items: center;
-}
-
-.notice-dismiss {
-	top: 4px;
-}
-
-.wp-core-ui button.show-notice-code {
-	top: -0.75rem;
-	position: relative;
+	width: 100%;
+	margin: 0;
 }
 
 .wrap h1.big-title {
@@ -67,15 +70,32 @@
 	padding-top: 2rem;
 }
 
-.section-header {
-	display: flex;
-	align-items: center;
-	margin-bottom: 3rem;
+.section-buttons p {
+	margin: 0;
 }
 
-.section-header h1 {
-	margin: 0;
+.buttons-row {
+	display: grid;
+	grid-template-columns: calc(13% - 10px) calc(20% - 10px) calc(66.66% - 10px);
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
+	margin-bottom: 40px;
+}
+
+.buttons-row > div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.section-header {
+	margin-bottom: 60px;
+}
+
+.section-header h2 {
+	margin: 0 0 15px 0;
 	padding: 0;
+	font-weight: 400;
 }
 
 .section-header .button {
@@ -125,7 +145,8 @@
 
 code[class*="language-"],
 pre[class*="language-"] {
-	tab-size: 1;
+	margin: 0;
+	tab-size: 2;
 }
 
 .section-notices :not(pre) > code[class*="language-"],
@@ -168,13 +189,23 @@ code {
 
 .grid-2 {
 	display: grid;
-	grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+	grid-template-columns: calc(33.33% - 10px) calc(66.66% - 10px);
 	grid-template-rows: 1fr;
-	grid-gap: 1rem;
+	grid-gap: 20px;
 }
 
-.column-code {
-	padding-top: 5px;
+.grid-3 {
+	display: grid;
+	grid-template-columns: calc(33.33% - 10px) calc(33.33% - 10px) calc(33.33% - 10px);
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
+}
+
+.grid-50-50 {
+	display: grid;
+	grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
 }
 
 .switch-button.hidden {
@@ -187,7 +218,17 @@ code {
 }
 
 #dashboard-widgets .postbox-container {
-	width: 50%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#dashboard-widgets .postbox-container:last-of-type {
+	margin-bottom: 0;
+}
+
+.postbox,
+.stuffbox {
+	margin-bottom: 0;
 }
 
 .logo-link {
@@ -313,8 +354,16 @@ a.twitter-share-button.small {
 	font-size: 11px;
 }
 
+.w-100 {
+	width: 100% !important;
+}
+
 .h-400 pre {
 	max-height: 400px;
+}
+
+.h-500 pre {
+	max-height: 500px;
 }
 
 .h-40 {
@@ -329,21 +378,25 @@ a.twitter-share-button.small {
 	height: auto;
 }
 
-div.code-toolbar > .toolbar {
+.code-toolbar {
+	width: 100%;
+}
+
+.section .code-toolbar > .toolbar {
 	top: 0.75rem;
 	right: 1.5rem;
 }
 
-div.code-toolbar > .toolbar a,
-div.code-toolbar > .toolbar button,
-div.code-toolbar > .toolbar span {
+.section .code-toolbar > .toolbar a,
+.section .code-toolbar > .toolbar button,
+.section .code-toolbar > .toolbar span {
 	font-size: 15px;
 	color: #fff;
 }
 
-div.code-toolbar > .toolbar a:hover,
-div.code-toolbar > .toolbar button:hover,
-div.code-toolbar > .toolbar span:hover {
+.section .code-toolbar > .toolbar a:hover,
+.section .code-toolbar > .toolbar button:hover,
+.section .code-toolbar > .toolbar span:hover {
 	color: #fff;
 }
 
@@ -424,6 +477,15 @@ div.code-toolbar > .toolbar span:hover {
 }
 
 @media (max-width: 478px) {
+
+	.buttons-row {
+		display: block;
+	}
+
+	.buttons-row > div {
+		display: block;
+		margin-bottom: 15px;
+	}
 
 	.wrap {
 		padding: 0;
