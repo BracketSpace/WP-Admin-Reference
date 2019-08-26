@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0011e157fbb12e6e6e8cd0c565d48373",
+    "content-hash": "3a299bc684ac32eb64c31f663cc6d304",
     "packages": [
         {
             "name": "composer/installers",
@@ -522,24 +522,6 @@
                 "environment"
             ],
             "time": "2019-06-15T22:40:20+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/redis-cache",
-            "version": "1.4.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/1.4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/redis-cache.1.4.3.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/redis-cache/"
         },
         {
             "name": "wpackagist-plugin/spinupwp",
