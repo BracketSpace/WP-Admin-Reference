@@ -257,7 +257,7 @@ code {
 .logo-link {
 	display: block;
 	max-width: 25rem;
-	margin-bottom: 44px;
+	margin-bottom: 100px;
 	padding: 1rem 0;
 	opacity: 0.5;
 }
@@ -552,6 +552,12 @@ a.twitter-share-button.small {
 		width: auto;
 		max-width: 100%;
 	}
+
+	.widefat th.sortable,
+	.widefat th.sorted {
+		padding: 8px 10px;
+	}
+
 }
 
 @media (max-width: 478px) {

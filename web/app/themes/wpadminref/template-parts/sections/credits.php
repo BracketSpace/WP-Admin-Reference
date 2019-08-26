@@ -10,9 +10,7 @@
 <section class="section section-credits" id="credits">
 	<div class="section-content large-text d-flex flex-column justify-content-center h-100">
 		<h1 class="big-title">Credits</h1>
-		<div class="text-subtitle">
-			This website was made with love by
-		</div>
+		<p>This website was made with love by</p>
 		<p>
 			<a href="https://bracketspace.com/" target="_blank" class="logo-link">
 				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/bracketspace-logo.svg' ) ); ?>" width="300" alt="Quality WordPress Plugins">
