@@ -19,13 +19,13 @@
 	/* ]]> */
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
+<?php // phpcs:ignore ?>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62399988-9"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-62399988-9');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-62399988-9');
 </script>
 </body>
 </html>
