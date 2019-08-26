@@ -44,7 +44,7 @@
 .wrap div.error,
 .media-upload-form .notice,
 .media-upload-form div.error {
-	max-width: 100%;
+	width: 100%;
 	margin: 0;
 }
 
@@ -171,11 +171,6 @@ code[class*="language-"],
 pre[class*="language-"] {
 	margin: 0;
 	tab-size: 2;
-}
-
-.section-notices :not(pre) > code[class*="language-"],
-.section-notices pre[class*="language-"] {
-	overflow-x: hidden;
 }
 
 pre {
@@ -547,6 +542,15 @@ a.twitter-share-button.small {
 	code[class*="language-"],
 	pre[class*="language-"] {
 		tab-size: 1;
+	}
+
+	.wrap .notice,
+	.wrap div.updated,
+	.wrap div.error,
+	.media-upload-form .notice,
+	.media-upload-form div.error {
+		width: auto;
+		max-width: 100%;
 	}
 }
 
