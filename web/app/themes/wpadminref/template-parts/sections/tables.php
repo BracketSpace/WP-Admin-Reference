@@ -17,7 +17,7 @@
 				<table class="form-table">
 					<tbody>
 						<tr>
-							<th scope="row"><label for="input_id">input.regular-text</label></th>
+							<th scope="row"><label for="input_id">Regular field</label></th>
 							<td><input name="input_id" type="text" id="input_id" value="Lorem Ipsum is that!" class="regular-text"></td>
 						</tr>
 						<tr>
@@ -35,7 +35,7 @@
 							</td>
 						</tr>
 						<tr>
-							<th scope="row"><label for="select_id">select</label></th>
+							<th scope="row"><label for="select_id">Select</label></th>
 							<td>
 								<select name="select_id" id="select_id">
 									<option selected="selected" value="option_one">Option #1</option>
@@ -47,7 +47,7 @@
 						</tr>
 
 						<tr>
-							<th scope="row">.p</th>
+							<th scope="row">Paragraph</th>
 							<td>
 								<p>
 									It is a long established fact that a reader will be distracted by the readable 
@@ -59,7 +59,7 @@
 						</tr>
 
 						<tr>
-							<th scope="row">p.description</th>
+							<th scope="row">Description</th>
 							<td>
 								<p class="description">
 									It is a long established fact that a reader will be distracted by the readable 
