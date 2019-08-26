@@ -86,6 +86,21 @@
 .buttons-row > div {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+}
+
+.spinners-row {
+	display: grid;
+	grid-template-columns: calc(19.33% - 10px) calc(20% - 10px) calc(60.66% - 10px);
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
+	margin-bottom: 40px;
+}
+
+.spinners-row > div {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
 .notices-row {
@@ -487,11 +502,13 @@ a.twitter-share-button.small {
 	}
 
 	.buttons-row,
+	.spinners-row,
 	.notices-row {
 		display: block;
 	}
 
 	.buttons-row > div,
+	.spinners-row > div,
 	.notices-row > div {
 		display: block;
 		margin-bottom: 15px;

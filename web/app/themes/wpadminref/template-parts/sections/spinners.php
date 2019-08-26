@@ -15,7 +15,7 @@
 
 		<h3>@1x</h3>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>HTML spinner (20x20)</p>
 			</div>
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>spinner.gif (20x20)</p>
 			</div>
@@ -47,7 +47,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>loading.gif (16x16)</p>
 			</div>
@@ -63,7 +63,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>wpspin_light.gif (16x16)</p>
 			</div>
@@ -79,7 +79,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>loader.gif (31x31)</p>
 			</div>
@@ -95,7 +95,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>loadingAnimation.gif (416x26)</p>
 			</div>
@@ -113,7 +113,7 @@
 
 		<h3>@2x</h3>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>spinner-2x.gif (40x40)</p>
 			</div>
@@ -129,7 +129,7 @@
 			</div>
 		</div>
 
-		<div class="buttons-row">
+		<div class="spinners-row">
 			<div>
 				<p>wpspin_light-2x.gif (32x32)</p>
 			</div>
