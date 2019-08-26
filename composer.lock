@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a9c60efd938288d402c6ed3c95115c76",
+    "content-hash": "0011e157fbb12e6e6e8cd0c565d48373",
     "packages": [
         {
             "name": "composer/installers",
@@ -540,6 +540,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/redis-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/spinupwp",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/spinupwp/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/spinupwp/"
         },
         {
             "name": "wpackagist-plugin/super-progressive-web-apps",

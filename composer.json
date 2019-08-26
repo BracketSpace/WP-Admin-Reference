@@ -39,7 +39,8 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/redis-cache": "*",
-    "wpackagist-plugin/super-progressive-web-apps": "*"
+    "wpackagist-plugin/super-progressive-web-apps": "*",
+    "wpackagist-plugin/spinupwp": "*"
   },
   "extra": {
     "installer-paths": {
