@@ -44,7 +44,7 @@
 .wrap div.error,
 .media-upload-form .notice,
 .media-upload-form div.error {
-	width: 100%;
+	max-width: 100%;
 	margin: 0;
 }
 
