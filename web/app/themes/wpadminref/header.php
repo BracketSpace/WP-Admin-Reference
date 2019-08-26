@@ -14,8 +14,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:url" content="<?php echo esc_url( home_url( '/' ) ); ?>" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="WP Admin Reference by BracketSpace.com" />
-	<meta property="og:description" content="This is a place where you can quickly reference elements from wp-admin. You can use them in your own plugins." />
+	<meta property="og:title" content="WP-Admin Reference by BracketSpace" />
+	<meta property="og:description" content="A place where you can quickly reference elements from wp-admin. You can use them in your own plugins." />
 	<meta property="og:image" content="<?php echo esc_url( get_theme_file_uri( '/assets/images/sm.png' ) ); ?>" />
 	<meta name="theme-color" content="#23282d">
 	<script type="text/javascript">var ajaxurl = <?php echo wp_json_encode( admin_url( 'admin-ajax.php', 'relative' ) ); ?></script>
