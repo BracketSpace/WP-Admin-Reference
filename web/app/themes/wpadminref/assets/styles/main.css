@@ -464,6 +464,8 @@ a.twitter-share-button.small {
 
 	.section {
 		padding-top: 2rem;
+		padding-left: 15px;
+		padding-right: 15px;
 	}
 
 	.buttons-row {
@@ -530,7 +532,12 @@ a.twitter-share-button.small {
 
 	#wpcontent,
 	#wpfooter {
-		margin-right: 10px;
+		padding-left: 0;
+		margin-right: 0;
+	}
+
+	.auto-fold #wpcontent {
+		padding-left: 0;
 	}
 
 	.grid-50-50 {
