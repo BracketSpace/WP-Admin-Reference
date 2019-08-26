@@ -49,9 +49,11 @@
 }
 
 .wrap h1.big-title {
-	font-size: 5rem;
+	opacity: 0.5;
+	font-size: 8.125rem;
 	font-weight: 700;
-	line-height: 1.1;
+	line-height: 1;
+	color: #707070;
 }
 
 .admin-bar .menupop:hover .ab-sub-wrapper {
@@ -116,6 +118,28 @@
 
 .text-light {
 	color: #b9b9b9;
+}
+
+.section-about {
+	background: url(../images/about-bg.svg) no-repeat top right/70%;
+	padding-left: 45px;
+}
+
+.section-about .section-content {
+	max-width: 745px;
+}
+
+.text-subtitle {
+	margin-top: 30px;
+	margin-bottom: 58px;
+	font-size: 23px;
+	font-weight: 300;
+	line-height: 31px;
+}
+
+.text-description {
+	font-size: 18px;
+	line-height: 24px;
 }
 
 .section-code {
@@ -231,11 +255,16 @@ code {
 	margin-bottom: 0;
 }
 
+.section-credits {
+	padding-left: 45px;
+}
+
 .logo-link {
 	display: block;
 	max-width: 25rem;
-	margin: auto;
-	padding: 1rem 2rem;
+	margin-bottom: 44px;
+	padding: 1rem 0;
+	opacity: 0.5;
 }
 
 .logo-link:hover {
@@ -246,6 +275,7 @@ code {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	margin-left: -15px;
 }
 
 .d-flex {
@@ -265,7 +295,7 @@ code {
 }
 
 .h-100 {
-	height: calc(100vh - 3rem);
+	min-height: calc(100vh);
 }
 
 ::-webkit-scrollbar {
@@ -292,11 +322,11 @@ code {
 }
 
 .share-buttons {
-	padding: 1rem;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	align-items: center;
+	margin-left: -0.5rem;
+	padding: 1rem 0;
 }
 
 .share-button {
@@ -435,6 +465,20 @@ a.twitter-share-button.small {
 	.section {
 		padding-top: 2rem;
 	}
+
+	.buttons-row {
+		display: block;
+	}
+
+	.buttons-row > div {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.wp-core-ui .notice,
+	.wp-core-ui .notice.is-dismissible {
+		max-width: 500px;
+	}
 }
 
 @media (max-width: 782px) {
@@ -472,20 +516,34 @@ a.twitter-share-button.small {
 	}
 
 	.h-100 {
-		height: auto;
+		min-height: initial;
+	}
+
+	.section-credits,
+	.section-about {
+		padding-left: 15px;
+	}
+
+	.wp-core-ui .notice.is-dismissible {
+		padding-right: 0;
+	}
+
+	#wpcontent,
+	#wpfooter {
+		margin-right: 10px;
+	}
+
+	.grid-50-50 {
+		display: block;
+	}
+
+	code[class*="language-"],
+	pre[class*="language-"] {
+		tab-size: 1;
 	}
 }
 
 @media (max-width: 478px) {
-
-	.buttons-row {
-		display: block;
-	}
-
-	.buttons-row > div {
-		display: block;
-		margin-bottom: 15px;
-	}
 
 	.wrap {
 		padding: 0;

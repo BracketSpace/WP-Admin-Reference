@@ -7,12 +7,12 @@
 
 ?>
 
-<section class="section section-about" id="credits">
-	<div class="section-content large-text d-flex flex-column align-items-center justify-content-center h-100">
+<section class="section section-credits" id="credits">
+	<div class="section-content large-text d-flex flex-column justify-content-center h-100">
 		<h1 class="big-title">Credits</h1>
-		<p>
+		<div class="text-subtitle">
 			This website was made with love by
-		</p>
+		</div>
 		<p>
 			<a href="https://bracketspace.com/" target="_blank" class="logo-link">
 				<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/bracketspace-logo.svg' ) ); ?>" width="300" alt="Quality WordPress Plugins">
@@ -20,7 +20,7 @@
 		</p>
 		<hr/>
 		<h3>
-			Share:
+			Like it? Share it:
 		</h3>
 		<div class="share-buttons">
 			<div class="share-button">
