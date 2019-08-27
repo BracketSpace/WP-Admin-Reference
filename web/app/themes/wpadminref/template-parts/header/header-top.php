@@ -47,7 +47,7 @@
 				</div>
 				<div class="share-button">
 					<a class="twitter-share-button large"
-						href="https://twitter.com/intent/tweet?text=Look%20what%20i%20found!%20Complete%20wp-admin%20referece%3A%20https%3A%2F%2Fwpadminref.bracketspace.com%2F"
+						href="https://twitter.com/intent/tweet?text=Complete%20WP-Admin%20Reference%20%40TheBracketSpace%20https%3A%2F%2Fwpadmin.bracketspace.com"
 						data-size="small"
 						data-text="Share on Twitter"
 						data-url="https://wpadminref.bracketspace.com/"
