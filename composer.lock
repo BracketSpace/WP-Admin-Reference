@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9221aa6524b284fd2ac659d11537587f",
+    "content-hash": "3a299bc684ac32eb64c31f663cc6d304",
     "packages": [
         {
             "name": "composer/installers",
@@ -127,18 +127,6 @@
                 "zikula"
             ],
             "time": "2019-08-12T15:00:31+00:00"
-        },
-        {
-            "name": "deliciousbrains-plugin/wp-migrate-db-pro",
-            "version": "1.9.8",
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=1.9.8"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "oscarotero/env",
