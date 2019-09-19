@@ -23,7 +23,7 @@
   "author": "bracketspace",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/bracketspace/wp-admin-reference/issues"
+    "url": "https://github.com/BracketSpace/WP-Admin-Reference/issues"
   },
-  "homepage": "https://gitlab.com/bracketspace/wp-admin-reference#readme"
+  "homepage": "https://wpadmin.bracketspace.com"
 }
