@@ -22,5 +22,5 @@ auth.json
 
 # WP-CLI
 wp-cli.local.yml
-
-/web/app/themes/wpadminref/.gitignore
+
+/web/app/themes/wpadminref/.gitignore
