@@ -13,149 +13,78 @@
 	</header>
 	<div class="section-content">
 		<div class="grid-2">
-			<div class="column-content markup-holder">
+			<div>
 				<h2 class="nav-tab-wrapper">
-					<a href="#" class="nav-tab nav-tab-active">Tab #01</a>
-					<a href="#" class="nav-tab">Tab #02</a>
-					<a href="#" class="nav-tab">Tab #03</a>
+					<a href="javascript:void(0)" class="nav-tab nav-tab-active">Tab #01</a>
+					<a href="javascript:void(0)" class="nav-tab">Tab #02</a>
+					<a href="javascript:void(0)" class="nav-tab">Tab #03</a>
 				</h2>
 				<div class="tabs-content">
 					<h3>Settings tabs</h3>
 					<p>
-						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+						These are native WordPress tabs. Unfortunately they are not supported by JS :(. Fortunately, you can code it yourself!
 					</p>
-					<table class="form-table">
-						<tbody>
-							<tr>
-								<th scope="row"><label for="input_id">Regular field</label></th>
-								<td><input name="input_id" type="text" id="input_id" value="Lorem Ipsum is that!" class="regular-text"></td>
-							</tr>
-						<tbody>
-							<tr>
-								<th scope="row"><label for="input_id">Regular field 2</label></th>
-								<td><input name="input_id" type="text" id="input_id" value="It is a long established fact!" class="regular-text"></td>
-							</tr>
-							<tr>
-								<th scope="row">Checkbox</th>
-								<td>
-									<fieldset>
-										<legend class="screen-reader-text">
-											<span>checkbox</span>
-										</legend>
-										<label for="checkbox_id">
-											<input name="checkbox_id" type="checkbox" id="checkbox_id" value="1">
-											Just check me!
-										</label>
-									</fieldset>
-								</td>
-							</tr>
-							<tr>
-								<th scope="row"><label for="select_id">Select</label></th>
-								<td>
-									<select name="select_id" id="select_id">
-										<option selected="selected" value="option_one">Option #1</option>
-										<option value="option_2">Option #2</option>
-										<option value="option_3">Option #3</option>
-										<option value="option_4">Option #4</option>
-									</select>
-								</td>
-							</tr>
-
-							<tr>
-								<th scope="row">Settings tabs paragraph</th>
-								<td>
-									<p>
-										It is a long established fact that a reader will be distracted by the readable 
-										content of a page when looking at its layout. The point of using Lorem Ipsum is 
-										that it has a more-or-less normal distribution of letters, as opposed to using 
-										'Content here, content here', making it look like readable English.
-									</p>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-					<p>
-						<a href="javascript:void(0)" target="_blank" class="button button-primary">Save changes</a>
-					</p>
+					<h3><strong>Here's the tutorial!</strong></h3>
+					<p><strong>Markup: </strong></p>
+					<script type="text/plain" class="line-numbers language-markup">
+						<div id="tabs">
+							<ul>
+								<li><a href="#tab-01">Tab #01</a></li>
+								<li><a href="#tab-02">Tab #02</a></li>
+								<li><a href="#tab-03">Tab #03</a></li>
+							</ul>
+							<div id="tab-01">Tab #01 content here</div>
+							<div id="tab-02">Tab #02 content here</div>
+							<div id="tab-03">Tab #03 content here</div>
+						</div>
+					</script>
+					<p><strong>JS: </strong></p>
+					<pre class="line-numbers language-js">
+						<code class="line-numbers language-js">
+							(function($) {
+								$(function(){
+									$('#tabs').tabs();
+								});
+							})(jQuery);
+						</code>
+					</pre>
+					<p>That's all folks!</p>
+				</div>
+				</div>
+				<div class="column-code h-500">
+					<pre class="line-numbers language-markup">
+						<code class="line-numbers language-php">
+							&lt;h2 class=&quot;nav-tab-wrapper&quot;&gt;
+								&lt;a href=&quot;javascript:void(0)&quot; class=&quot;nav-tab &lt;?php echo $active_tab == 'display_options' ? 'nav-tab-active' : ''; ?&gt;&quot;&gt;Tab #01&lt;/a&gt;
+								&lt;a href=&quot;javascript:void(0)&quot; class=&quot;nav-tab &lt;?php echo $active_tab == 'display_options' ? 'nav-tab-active' : ''; ?&gt;&quot;&gt;Tab #02&lt;/a&gt;
+								&lt;a href=&quot;javascript:void(0)&quot; class=&quot;nav-tab &lt;?php echo $active_tab == 'display_options' ? 'nav-tab-active' : ''; ?&gt;&quot;&gt;Tab #03&lt;/a&gt;
+							&lt;/h2&gt;
+							&lt;div class=&quot;tabs-content&quot;&gt;
+								&lt;h3&gt;Settings tabs&lt;/h3&gt;
+								&lt;p&gt;
+									&quot;But I must explain to you how all this mistaken idea of denouncing pleasure and 
+									praising pain was born and I will give you a complete account of the system, and 
+									expound the actual teachings of the great explorer of the truth, the master-builder 
+									of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it 
+									is pleasure, but because those who do not know how to pursue pleasure rationally 
+									encounter consequences that are extremely painful.
+								&lt;/p&gt;
+								&lt;p&gt;
+									Nor again is there anyone who loves or pursues or desires to obtain pain of itself, 
+									because it is pain, but because occasionally circumstances occur in which toil and 
+									pain can procure him some great pleasure. To take a trivial example, which of us 
+									ever undertakes laborious physical exercise, except to obtain some advantage from it? 
+									But who has any right to find fault with a man who chooses to enjoy a pleasure that has 
+									no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&quot;
+								&lt;/p&gt;
+								&lt;p&gt;
+									&lt;a href=&quot;javascript:void(0)&quot; target=&quot;_blank&quot; class=&quot;button button-primary&quot;&gt;Save changes&lt;/a&gt;
+								&lt;/p&gt;
+							&lt;/div&gt;
+						</code>
+					</pre>
 				</div>
 			</div>
-			<div class="column-code">
-				<pre class="line-numbers language-markup">
-					<code class="line-numbers language-markup">
-						<h2 class="nav-tab-wrapper">
-							<a href="#" class="nav-tab" <?php echo esc_html( $active_tab ) === 'display_options' ? 'nav-tab-active' : ''; ?>>Tab #01</a>
-							<a href="#" class="nav-tab" <?php echo esc_html( $active_tab ) === 'display_options' ? 'nav-tab-active' : ''; ?>>Tab #02</a>
-							<a href="#" class="nav-tab" <?php echo esc_html( $active_tab ) === 'display_options' ? 'nav-tab-active' : ''; ?>>Tab #03</a>
-						</h2>
-						<div class="tabs-content">
-							<h3>Settings tabs</h3>
-							<p>
-								It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-							</p>
-							<table class="form-table">
-								<tbody>
-									<tr>
-										<th scope="row"><label for="input_id">Regular field</label></th>
-										<td><input name="input_id" type="text" id="input_id" value="Lorem Ipsum is that!" class="regular-text"></td>
-									</tr>
-								<tbody>
-									<tr>
-										<th scope="row"><label for="input_id">Regular field 2</label></th>
-										<td><input name="input_id" type="text" id="input_id" value="It is a long established fact!" class="regular-text"></td>
-									</tr>
-									<tr>
-										<th scope="row">Checkbox</th>
-										<td>
-											<fieldset>
-												<legend class="screen-reader-text">
-													<span>checkbox</span>
-												</legend>
-												<label for="checkbox_id">
-													<input name="checkbox_id" type="checkbox" id="checkbox_id" value="1">
-													Just check me!
-												</label>
-											</fieldset>
-										</td>
-									</tr>
-									<tr>
-										<th scope="row"><label for="select_id">Select</label></th>
-										<td>
-											<select name="select_id" id="select_id">
-												<option selected="selected" value="option_one">Option #1</option>
-												<option value="option_2">Option #2</option>
-												<option value="option_3">Option #3</option>
-												<option value="option_4">Option #4</option>
-											</select>
-										</td>
-									</tr>
-
-									<tr>
-										<th scope="row">Settings tabs paragraph</th>
-										<td>
-											<p>
-												It is a long established fact that a reader will be distracted by the readable 
-												content of a page when looking at its layout. The point of using Lorem Ipsum is 
-												that it has a more-or-less normal distribution of letters, as opposed to using 
-												'Content here, content here', making it look like readable English.
-											</p>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-							<p>
-								<a href="javascript:void(0)" target="_blank" class="button button-primary">Save changes</a>
-							</p>
-						</div>
-					</code>
-				</pre>
-			</div>
-		</div>
-	</div>
-
-	<div class="section-code">
-		<pre class="section-markup-code line-numbers language-markup"><code class="editor-code line-numbers language-markup"></code></pre>
-		<div class="section-code-functions">
-			<button class="button button-primary copy-to-clipboard">Copy to clipboard</button>
 		</div>
 	</div>
 </section>
