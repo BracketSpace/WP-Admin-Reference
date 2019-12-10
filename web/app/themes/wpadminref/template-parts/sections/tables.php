@@ -73,7 +73,13 @@
 				</table>
 			</div>
 			<div class="column-code h-500">
-				<pre class="line-numbers language-markup"><code class="line-numbers language-markup"></code></pre>
+				<pre class="line-numbers language-php">
+					<code class="line-numbers language-php">
+						if ( ! class_exists( 'WP_List_Table' ) ) {
+							require_once( ABSPATH . 'wp-admin/includes/class-wp-list-table.php' );
+						}
+					</code>
+				</pre>
 			</div>
 		</div>
 	</div>
