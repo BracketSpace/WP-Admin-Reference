@@ -24,3 +24,4 @@ auth.json
 wp-cli.local.yml
 
 /web/app/themes/wpadminref/.gitignore
+sql/local.sql
