@@ -48,7 +48,7 @@ jobs:
       env:
         DEPLOY_KEY: ${{ secrets.SERVER_DEPLOY_KEY }}
       with:
-        flags: '-avCh'
+        flags: '-aCh'
         options: '--delete-after --exclude-from=".deploy-excludes"'
         src: '.'
         dest: ${{ secrets.PRODUCTION_RSYNC_URL }}
