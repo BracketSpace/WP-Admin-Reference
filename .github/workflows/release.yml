@@ -1,0 +1,28 @@
+name: Release
+
+on: repository_dispatch
+
+jobs:
+  release:
+    if: github.event.action == 'release'
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v1
+        with:
+          ref: 'master'
+      - name: Checkout develop
+        uses: actions/checkout@v1
+        with:
+          ref: 'develop'
+          clean: false
+      - name: Merge
+        run: |
+          git checkout master
+          git merge develop
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKER_TOKEN }}
+          branch: 'master'

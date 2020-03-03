@@ -1,0 +1,40 @@
+name: Update
+
+on: repository_dispatch
+
+jobs:
+  update:
+    if: github.event.action == 'update'
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout develop
+        uses: actions/checkout@v1
+        with:
+          ref: 'develop'
+          clean: false
+      - name: Setup variables
+        id: vars
+        run: |
+          echo "::set-output name=composer-cache-path::$(composer config cache-files-dir)"
+      - name: Setup Composer auth
+        run: |
+          echo '${{ secrets.COMPOSER_AUTH_JSON }}' > $(composer config data-dir)/auth.json
+      - name: Cache Composer
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.vars.outputs.composer-cache-path }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+      - name: Update Composer dependencies
+        run: composer update -o --no-progress
+      - name: Commit
+        run: |
+          git config --local user.email "${{ secrets.WORKER_EMAIL }}"
+          git config --local user.name "${{ secrets.WORKER_NAME }}"
+          git commit --allow-empty -am "Update dependencies"
+      - name: Push
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.WORKER_TOKEN }}
+          branch: 'develop'

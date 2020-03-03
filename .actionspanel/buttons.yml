@@ -1,0 +1,8 @@
+buttons:
+  - title: Release to production
+    action: "release"
+    description: Release to production
+    confirm: true
+  - title: Update
+    action: "update"
+    description: Update

@@ -1,0 +1,14 @@
+.actionspanel
+.deploy-excludes
+.github
+.git
+/.gitignore
+/.env
+/auth.json
+/composer.json
+/composer.lock
+/wp-cli.yml
+/web/app/languages
+/web/app/upgrade
+/web/app/uploads
+/web/app/themes/wpadminref/vendor
