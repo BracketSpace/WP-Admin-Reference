@@ -37,11 +37,11 @@ jobs:
       run: composer install -o --no-progress
     - name: Install theme Composer dependencies
       run: |
-        cd we/app/themes/wpadminref
+        cd web/app/themes/wpadminref
         composer install -o --no-progress
     - name: Install theme Node dependencies
       run: |
-        cd we/app/themes/wpadminref
+        cd web/app/themes/wpadminref
         yarn install --no-progress
     - name: Upload files
       uses: Pendect/action-rsyncer@v1.1.0
