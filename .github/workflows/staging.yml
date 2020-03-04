@@ -49,6 +49,6 @@ jobs:
         DEPLOY_KEY: ${{ secrets.SERVER_DEPLOY_KEY }}
       with:
         flags: '-aCh'
-        options: '--delete-after --exclude-from=".deploy-excludes"'
+        options: '--stats --delete-after --exclude-from=".deploy-excludes"'
         src: '.'
         dest: ${{ secrets.STAGING_RSYNC_URL }}
