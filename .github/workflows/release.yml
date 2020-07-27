@@ -1,11 +1,7 @@
 name: Release
 
 on: 
-  workflow_dispatch:
-    inputs:
-      new_version:
-        description: 'New version'     
-        required: true  
+  workflow_dispatch
 
 jobs:
   release:
