@@ -683,15 +683,15 @@
         },
         {
             "name": "wpackagist-plugin/super-progressive-web-apps",
-            "version": "2.1.12",
+            "version": "2.1.13",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/super-progressive-web-apps/",
-                "reference": "tags/2.1.12"
+                "reference": "tags/2.1.13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.1.12.zip"
+                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.1.13.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
