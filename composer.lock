@@ -674,15 +674,15 @@
         },
         {
             "name": "wpackagist-plugin/spinupwp",
-            "version": "1.4",
+            "version": "1.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/spinupwp/",
-                "reference": "tags/1.4"
+                "reference": "tags/1.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.4.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -692,15 +692,15 @@
         },
         {
             "name": "wpackagist-plugin/super-progressive-web-apps",
-            "version": "2.2",
+            "version": "2.2.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/super-progressive-web-apps/",
-                "reference": "tags/2.2"
+                "reference": "tags/2.2.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
