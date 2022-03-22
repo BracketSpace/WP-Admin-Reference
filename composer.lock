@@ -278,22 +278,22 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.9.1",
+            "version": "5.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.9.1"
+                "reference": "5.9.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.9.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/refs/tags/5.9.2"
             },
             "require": {
                 "php": ">=5.3.2",
                 "roots/wordpress-core-installer": ">=1.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "5.9.1"
+                "wordpress/core-implementation": "5.9.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -332,7 +332,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-02-22T15:29:52+00:00"
+            "time": "2022-03-11T00:36:42+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -692,15 +692,15 @@
         },
         {
             "name": "wpackagist-plugin/super-progressive-web-apps",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/super-progressive-web-apps/",
-                "reference": "tags/2.2.1"
+                "reference": "tags/2.2.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
