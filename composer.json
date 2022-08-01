@@ -14,6 +14,10 @@
     "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
   ],
   "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true
+    },
     "preferred-install": "dist"
   },
   "repositories": [
