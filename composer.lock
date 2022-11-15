@@ -578,16 +578,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.26.0",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4"
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
-                "reference": "6fd1b9a79f6e3cf65f9e679b23af304cd9e010d4",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/5bbc823adecdae860bb64756d639ecfec17b050a",
+                "reference": "5bbc823adecdae860bb64756d639ecfec17b050a",
                 "shasum": ""
             },
             "require": {
@@ -602,7 +602,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.26-dev"
+                    "dev-main": "1.27-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -640,7 +640,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.26.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.27.0"
             },
             "funding": [
                 {
@@ -656,7 +656,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-24T11:49:31+00:00"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -737,15 +737,15 @@
         },
         {
             "name": "wpackagist-plugin/spinupwp",
-            "version": "1.5",
+            "version": "1.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/spinupwp/",
-                "reference": "tags/1.5"
+                "reference": "tags/1.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.5.zip"
+                "url": "https://downloads.wordpress.org/plugin/spinupwp.1.5.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -755,15 +755,15 @@
         },
         {
             "name": "wpackagist-plugin/super-progressive-web-apps",
-            "version": "2.2.7",
+            "version": "2.2.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/super-progressive-web-apps/",
-                "reference": "tags/2.2.7"
+                "reference": "tags/2.2.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
