@@ -282,7 +282,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.6",
+            "version": "6.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -313,7 +313,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.6"
+                "source": "https://github.com/roots/wordpress/tree/6.6.1"
             },
             "funding": [
                 {
@@ -396,22 +396,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.6",
+            "version": "6.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.6"
+                "reference": "6.6.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.6-no-content.zip",
-                "shasum": "6c0d82185d47782aab67a72d07dee459f9f6ceba"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.6.1-no-content.zip",
+                "shasum": "954aa560a66112cd999aa9d9519da5f964e6692a"
             },
             "require": {
                 "php": ">= 7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.6"
+                "wordpress/core-implementation": "6.6.1"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -462,7 +462,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2024-07-16T16:26:38+00:00"
+            "time": "2024-07-23T15:25:13+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -748,15 +748,15 @@
         },
         {
             "name": "wpackagist-plugin/super-progressive-web-apps",
-            "version": "2.2.28",
+            "version": "2.2.29",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/super-progressive-web-apps/",
-                "reference": "tags/2.2.28"
+                "reference": "tags/2.2.29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.28.zip"
+                "url": "https://downloads.wordpress.org/plugin/super-progressive-web-apps.2.2.29.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
