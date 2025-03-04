@@ -21,7 +21,7 @@ jobs:
         run: |
           echo '${{ secrets.COMPOSER_AUTH_JSON }}' > $(composer config data-dir)/auth.json
       - name: Cache Composer
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         with:
           path: ${{ steps.vars.outputs.composer-cache-path }}
           key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
