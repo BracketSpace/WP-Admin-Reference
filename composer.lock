@@ -282,7 +282,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.7.2",
+            "version": "6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -313,7 +313,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.7.2"
+                "source": "https://github.com/roots/wordpress/tree/6.8"
             },
             "funding": [
                 {
@@ -396,22 +396,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.7.2",
+            "version": "6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.7.2"
+                "reference": "6.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.7.2-no-content.zip",
-                "shasum": "c33ca276601dee0ddf1e80d3e66403929a696e63"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.8-no-content.zip",
+                "reference": "6.8",
+                "shasum": "f6bb25f590bb6dc45d21e26de97b589c5f0703bd"
             },
             "require": {
                 "php": ">= 7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.7.2"
+                "wordpress/core-implementation": "6.8"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -462,7 +463,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2025-02-11T16:29:31+00:00"
+            "time": "2025-04-15T15:45:35+00:00"
         },
         {
             "name": "roots/wp-config",
@@ -570,6 +571,7 @@
                 "issues": "https://github.com/roots/wp-password-bcrypt/issues",
                 "source": "https://github.com/roots/wp-password-bcrypt/tree/master"
             },
+            "abandoned": "roots/wp-password-bcrypt",
             "time": "2016-03-01T16:27:06+00:00"
         },
         {
