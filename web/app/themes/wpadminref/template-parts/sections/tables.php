@@ -21,6 +21,10 @@
 							<td><input name="input_id" type="text" id="input_id" value="Lorem Ipsum is that!" class="regular-text"></td>
 						</tr>
 						<tr>
+							<th scope="row"><label for="input_id">Large field</label></th>
+							<td><input name="input_large_id" type="text" id="input_large_id" value="Lorem Ipsum is that!" class="large-text"></td>
+						</tr>
+						<tr>
 							<th scope="row">Checkbox</th>
 							<td>
 								<fieldset>
